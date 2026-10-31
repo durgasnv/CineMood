@@ -1,0 +1,12 @@
+{
+  "cornell_polarity_v2.tar.gz": {
+    "url": "https://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz",
+    "sha256": "fc0dccc2671af5db3c5d8f81f77a1ebfec953ecdd422334062df61ede36b2179",
+    "bytes": 3127238
+  },
+  "iitp_hindi_kaggle.zip": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/warcoder/iit-patna-movie-reviews-hindi",
+    "sha256": "df621889ef4d8170ed7e8559afa0029d8caf7a619a92c3af2b3a03ea9aa6460f",
+    "bytes": 1961575
+  }
+}
