@@ -1,0 +1,10 @@
+WEKA 3.8.6 / OpenJDK 21
+WEKA JAR SHA-256: 932ea2f342b58fe45736389e9c426d5b5955e610d1f5f6485117f532068915e9
+
+en: 1993 rows; negative=996, positive=997; ARFF and all token boundaries passed
+hi: 2227 rows; negative=946, positive=1281; ARFF and all token boundaries passed
+WEKA whitespace WordTokenizer: Hindi combining marks and English/Hindi negation passed
+Validation only: no model training or accuracy evaluation performed
+
+Regression suite: 15 tests passed, including real-WEKA invalid-schema rejection.
+Source audit: both languages passed complete source partition, CSV/metadata alignment, labels, duplicate absence, and ARFF hash checks.
