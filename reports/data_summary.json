@@ -1,0 +1,74 @@
+{
+  "sources": {
+    "cornell_polarity_v2.tar.gz": {
+      "url": "https://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz",
+      "sha256": "fc0dccc2671af5db3c5d8f81f77a1ebfec953ecdd422334062df61ede36b2179",
+      "bytes": 3127238
+    },
+    "iitp_hindi_kaggle.zip": {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/warcoder/iit-patna-movie-reviews-hindi",
+      "sha256": "df621889ef4d8170ed7e8559afa0029d8caf7a619a92c3af2b3a03ea9aa6460f",
+      "bytes": 1961575
+    }
+  },
+  "languages": {
+    "en": {
+      "raw_records": 2000,
+      "raw_labels": {
+        "negative": 1000,
+        "positive": 1000
+      },
+      "source_splits": {
+        "source_cv_tag": 2000
+      },
+      "clean_records": 1993,
+      "clean_labels": {
+        "negative": 996,
+        "positive": 997
+      },
+      "dropped_by_reason": {
+        "near_duplicate": 5,
+        "exact_duplicate": 2
+      },
+      "near_duplicate_pairs_found": 5,
+      "tokens_min_median_max": [
+        16,
+        613,
+        2392
+      ],
+      "ten_fold_class_support": true,
+      "arff_sha256": "2d647d0a1591d2d9b42a9604e8970fc49d08310b4db8402acc46928f33bfcfa5"
+    },
+    "hi": {
+      "raw_records": 3100,
+      "raw_labels": {
+        "neutral": 867,
+        "positive": 1285,
+        "negative": 948
+      },
+      "source_splits": {
+        "train": 2480,
+        "valid": 310,
+        "test": 310
+      },
+      "clean_records": 2227,
+      "clean_labels": {
+        "positive": 1281,
+        "negative": 946
+      },
+      "dropped_by_reason": {
+        "nonbinary_label": 867,
+        "exact_duplicate": 6
+      },
+      "near_duplicate_pairs_found": 0,
+      "tokens_min_median_max": [
+        3,
+        16,
+        1422
+      ],
+      "ten_fold_class_support": true,
+      "arff_sha256": "97578e8b52ad05c85bc1645da89cc33789eda9cdfc22e5783c593b4886dacd1d"
+    }
+  },
+  "near_duplicate_threshold": 0.9
+}
