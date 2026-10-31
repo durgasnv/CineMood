@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# Research corpora stay local; acquisition and hashes are tracked instead.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+reports/local_audit.json
