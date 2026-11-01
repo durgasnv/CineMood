@@ -1,0 +1,23 @@
+PROJECT: CineMood - Multilingual Movie Sentiment Analysis
+MEMBER 2: Models and Evaluation
+
+WEKA Version: 3.8.7
+Java Version: 17
+Evaluation: Stratified 10-fold cross-validation
+Random Seed: 42
+Class Attribute: Last
+Text Filter: StringToWordVector
+Filter Options: -R first -W 1000 -L
+Classifier Wrapper: FilteredClassifier
+
+EXPERIMENT 1: ENGLISH - NAIVE BAYES
+java -Xmx4g -cp "$WEKA_JAR" weka.classifiers.meta.FilteredClassifier -t data/processed/en_reviews.arff -c last -x 10 -s 42 -F "weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -L" -W weka.classifiers.bayes.NaiveBayes
+
+EXPERIMENT 2: ENGLISH - SMO
+java -Xmx4g -cp "$WEKA_JAR" weka.classifiers.meta.FilteredClassifier -t data/processed/en_reviews.arff -c last -x 10 -s 42 -F "weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -L" -W weka.classifiers.functions.SMO
+
+EXPERIMENT 3: HINDI - NAIVE BAYES
+java -Xmx4g -cp "$WEKA_JAR" weka.classifiers.meta.FilteredClassifier -t data/processed/hi_reviews.arff -c last -x 10 -s 42 -F "weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -L" -W weka.classifiers.bayes.NaiveBayes
+
+EXPERIMENT 4: HINDI - SMO
+java -Xmx4g -cp "$WEKA_JAR" weka.classifiers.meta.FilteredClassifier -t data/processed/hi_reviews.arff -c last -x 10 -s 42 -F "weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -L" -W weka.classifiers.functions.SMO

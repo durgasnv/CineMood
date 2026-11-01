@@ -1,0 +1,2539 @@
+Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @639306ca
+Add --add-opens java.base/java.lang=ALL-UNNAMED as an option after the java command.
+Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @639306ca
+Add --add-opens java.base/java.lang=ALL-UNNAMED as an option after the java command.
+Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @639306ca
+Add --add-opens java.base/java.lang=ALL-UNNAMED as an option after the java command.
+
+Options: -F "weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -L" -W weka.classifiers.functions.SMO 
+
+=== Classifier model (full training set) ===
+
+FilteredClassifier using weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" on data filtered through weka.filters.unsupervised.attribute.StringToWordVector -R 1 -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.NullStemmer -stopwords-handler weka.core.stopwords.Null -M 1 -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\""
+
+Filtered Header
+@relation 'cinemood_hi-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-L-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute sentiment {negative,positive}
+@attribute 2 numeric
+@attribute 3 numeric
+@attribute chandermohan numeric
+@attribute com numeric
+@attribute sharma numeric
+@attribute timesgroup numeric
+@attribute अंत numeric
+@attribute अंदर numeric
+@attribute अंदाज numeric
+@attribute अक्षय numeric
+@attribute अक्सर numeric
+@attribute अगर numeric
+@attribute अचानक numeric
+@attribute अच्छा numeric
+@attribute अच्छी numeric
+@attribute अच्छे numeric
+@attribute अजय numeric
+@attribute अनिल numeric
+@attribute अनुपम numeric
+@attribute अनुष्का numeric
+@attribute अन्य numeric
+@attribute अपना numeric
+@attribute अपनी numeric
+@attribute अपने numeric
+@attribute अब numeric
+@attribute अब्बास numeric
+@attribute अभाव numeric
+@attribute अभिनय numeric
+@attribute अभिनेता numeric
+@attribute अभिषेक numeric
+@attribute अभी numeric
+@attribute अमित numeric
+@attribute अमिताभ numeric
+@attribute अरशद numeric
+@attribute अर्जुन numeric
+@attribute अर्से numeric
+@attribute अलग numeric
+@attribute अलावा numeric
+@attribute अली numeric
+@attribute अवसर numeric
+@attribute असफल numeric
+@attribute असर numeric
+@attribute असरदार numeric
+@attribute अहम numeric
+@attribute आ numeric
+@attribute आंखों numeric
+@attribute आइटम numeric
+@attribute आइडिया numeric
+@attribute आई numeric
+@attribute आए numeric
+@attribute आखिर numeric
+@attribute आखिरी numeric
+@attribute आगे numeric
+@attribute आज numeric
+@attribute आता numeric
+@attribute आती numeric
+@attribute आते numeric
+@attribute आदमी numeric
+@attribute आदित्य numeric
+@attribute आधारित numeric
+@attribute आधी numeric
+@attribute आनंद numeric
+@attribute आने numeric
+@attribute आप numeric
+@attribute आपके numeric
+@attribute आपको numeric
+@attribute आफताब numeric
+@attribute आफिस numeric
+@attribute आम numeric
+@attribute आया numeric
+@attribute आर्यन numeric
+@attribute आवाज numeric
+@attribute आशीष numeric
+@attribute आसपास numeric
+@attribute आसान numeric
+@attribute आसानी numeric
+@attribute इंटरवल numeric
+@attribute इंडस्ट्री numeric
+@attribute इंतजार numeric
+@attribute इंद्र numeric
+@attribute इंसान numeric
+@attribute इतना numeric
+@attribute इतनी numeric
+@attribute इतने numeric
+@attribute इन numeric
+@attribute इनकी numeric
+@attribute इनके numeric
+@attribute इमरान numeric
+@attribute इरफान numeric
+@attribute इस numeric
+@attribute इसका numeric
+@attribute इसकी numeric
+@attribute इसके numeric
+@attribute इसमें numeric
+@attribute इसलिए numeric
+@attribute इससे numeric
+@attribute इसी numeric
+@attribute इसे numeric
+@attribute इस्तेमाल numeric
+@attribute ईमानदारी numeric
+@attribute ईरानी numeric
+@attribute उन numeric
+@attribute उनका numeric
+@attribute उनकी numeric
+@attribute उनके numeric
+@attribute उनमें numeric
+@attribute उनसे numeric
+@attribute उन्हें numeric
+@attribute उन्होंने numeric
+@attribute उपयोग numeric
+@attribute उबाऊ numeric
+@attribute उम्दा numeric
+@attribute उम्मीद numeric
+@attribute उम्र numeric
+@attribute उर्फ numeric
+@attribute उस numeric
+@attribute उसका numeric
+@attribute उसकी numeric
+@attribute उसके numeric
+@attribute उसने numeric
+@attribute उससे numeric
+@attribute उसी numeric
+@attribute उसे numeric
+@attribute ऋषि numeric
+@attribute ए numeric
+@attribute एंटरटेनमेंट numeric
+@attribute एंट्री numeric
+@attribute एंड numeric
+@attribute एक numeric
+@attribute एकबार numeric
+@attribute एक्टिंग numeric
+@attribute एक्शन numeric
+@attribute एक्स numeric
+@attribute ऐक्टर numeric
+@attribute ऐक्टिंग numeric
+@attribute ऐक्शन numeric
+@attribute ऐसा numeric
+@attribute ऐसी numeric
+@attribute ऐसे numeric
+@attribute ऑफिस numeric
+@attribute ऑफिसर numeric
+@attribute ओम numeric
+@attribute ओर numeric
+@attribute ओवर numeric
+@attribute और numeric
+@attribute औसत numeric
+@attribute कंगना numeric
+@attribute कंपनी numeric
+@attribute कई numeric
+@attribute कपूर numeric
+@attribute कबीर numeric
+@attribute कभी numeric
+@attribute कम numeric
+@attribute कमजोर numeric
+@attribute कमाल numeric
+@attribute कमी numeric
+@attribute कर numeric
+@attribute करके numeric
+@attribute करण numeric
+@attribute करता numeric
+@attribute करती numeric
+@attribute करते numeric
+@attribute करना numeric
+@attribute करनी numeric
+@attribute करने numeric
+@attribute कराने numeric
+@attribute करियर numeric
+@attribute करीब numeric
+@attribute करें numeric
+@attribute करेंगे numeric
+@attribute करोड़ numeric
+@attribute करोड़ों numeric
+@attribute कलाकार numeric
+@attribute कलाकारों numeric
+@attribute कसौटी numeric
+@attribute कहता numeric
+@attribute कहती numeric
+@attribute कहने numeric
+@attribute कहा numeric
+@attribute कहानी numeric
+@attribute कही numeric
+@attribute कहीं numeric
+@attribute का numeric
+@attribute काफी numeric
+@attribute काम numeric
+@attribute कामत numeric
+@attribute कामयाब numeric
+@attribute कार numeric
+@attribute कारण numeric
+@attribute काला numeric
+@attribute कि numeric
+@attribute किए numeric
+@attribute किया numeric
+@attribute किरदार numeric
+@attribute किरदारों numeric
+@attribute किशन numeric
+@attribute किस numeric
+@attribute किसी numeric
+@attribute की numeric
+@attribute कुछ numeric
+@attribute कुणाल numeric
+@attribute कुमार numeric
+@attribute कुल numeric
+@attribute के numeric
+@attribute केवल numeric
+@attribute केस numeric
+@attribute कैमरा numeric
+@attribute कैमरे numeric
+@attribute कैसे numeric
+@attribute कॉमिडी numeric
+@attribute कॉमेडी numeric
+@attribute कॉलेज numeric
+@attribute को numeric
+@attribute कोई numeric
+@attribute कोशिश numeric
+@attribute कौन numeric
+@attribute क्या numeric
+@attribute क्यों numeric
+@attribute क्योंकि numeric
+@attribute क्रेज numeric
+@attribute क्लाइमेक्स numeric
+@attribute क्लाइमैक्स numeric
+@attribute क्लास numeric
+@attribute क्लिक numeric
+@attribute खतरनाक numeric
+@attribute खत्म numeric
+@attribute खन्ना numeric
+@attribute खराब numeric
+@attribute खर्च numeric
+@attribute खान numeric
+@attribute खास numeric
+@attribute खासकर numeric
+@attribute खिलाफ numeric
+@attribute खींचा numeric
+@attribute खुद numeric
+@attribute खूब numeric
+@attribute खूबसूरत numeric
+@attribute खूबसूरती numeric
+@attribute खेर numeric
+@attribute खेल numeric
+@attribute गई numeric
+@attribute गए numeric
+@attribute गजब numeric
+@attribute गति numeric
+@attribute गया numeric
+@attribute गलत numeric
+@attribute गलती numeric
+@attribute गांव numeric
+@attribute गाना numeric
+@attribute गाने numeric
+@attribute गानों numeric
+@attribute गायब numeric
+@attribute गीत numeric
+@attribute गुड्डू numeric
+@attribute गुप्ता numeric
+@attribute गेम numeric
+@attribute गैंग numeric
+@attribute गौतम numeric
+@attribute गौरव numeric
+@attribute ग्रोवर numeric
+@attribute ग्लैमर numeric
+@attribute घंटे numeric
+@attribute घटनाक्रम numeric
+@attribute घटिया numeric
+@attribute घर numeric
+@attribute घूमती numeric
+@attribute चंद numeric
+@attribute चक्कर numeric
+@attribute चक्रवर्ती numeric
+@attribute चरित्र numeric
+@attribute चल numeric
+@attribute चलता numeric
+@attribute चलती numeric
+@attribute चलते numeric
+@attribute चला numeric
+@attribute चार numeric
+@attribute चारों numeric
+@attribute चाहता numeric
+@attribute चाहती numeric
+@attribute चाहते numeric
+@attribute चाहिए numeric
+@attribute चाहे numeric
+@attribute चुका numeric
+@attribute चुकी numeric
+@attribute चुके numeric
+@attribute चेहरे numeric
+@attribute चोपड़ा numeric
+@attribute चोर numeric
+@attribute चोरी numeric
+@attribute चौधरी numeric
+@attribute छूट numeric
+@attribute छोटा numeric
+@attribute छोटी numeric
+@attribute छोटे numeric
+@attribute छोड़ numeric
+@attribute छोड़कर numeric
+@attribute छोड़ने numeric
+@attribute जंग numeric
+@attribute जंगल numeric
+@attribute जगह numeric
+@attribute जन्म numeric
+@attribute जब numeric
+@attribute जबकि numeric
+@attribute जबर्दस्त numeric
+@attribute जमकर numeric
+@attribute जमीन numeric
+@attribute जमे numeric
+@attribute जय numeric
+@attribute जरा numeric
+@attribute जरिये numeric
+@attribute जरूर numeric
+@attribute जरूरत numeric
+@attribute जरूरी numeric
+@attribute जवाब numeric
+@attribute जहां numeric
+@attribute जा numeric
+@attribute जाए numeric
+@attribute जाएं numeric
+@attribute जाएगा numeric
+@attribute जाकर numeric
+@attribute जाता numeric
+@attribute जाती numeric
+@attribute जाते numeric
+@attribute जान numeric
+@attribute जानते numeric
+@attribute जाना numeric
+@attribute जाने numeric
+@attribute जिंदगी numeric
+@attribute जिन्हें numeric
+@attribute जिन्होंने numeric
+@attribute जिम्मेदारी numeric
+@attribute जिस numeric
+@attribute जिसका numeric
+@attribute जिसकी numeric
+@attribute जिसके numeric
+@attribute जिसमें numeric
+@attribute जिससे numeric
+@attribute जिसे numeric
+@attribute जी numeric
+@attribute जीत numeric
+@attribute जीवंत numeric
+@attribute जुड़े numeric
+@attribute जेल numeric
+@attribute जैकी numeric
+@attribute जैसा numeric
+@attribute जैसी numeric
+@attribute जैसे numeric
+@attribute जॉन numeric
+@attribute जो numeric
+@attribute जोड़ी numeric
+@attribute जोशी numeric
+@attribute ज्यादा numeric
+@attribute ज्यादातर numeric
+@attribute टाइगर numeric
+@attribute टाइटल numeric
+@attribute टाइम numeric
+@attribute टिकट numeric
+@attribute टीम numeric
+@attribute टीवी numeric
+@attribute टू numeric
+@attribute ट्रेक numeric
+@attribute ट्रैक numeric
+@attribute ठाक numeric
+@attribute ठीक numeric
+@attribute डबल numeric
+@attribute डायरेक्टर numeric
+@attribute डायरेक्शन numeric
+@attribute डायलॉग numeric
+@attribute डाल numeric
+@attribute डिमांड numeric
+@attribute डी numeric
+@attribute डॉक्टर numeric
+@attribute डॉन numeric
+@attribute ड्रामा numeric
+@attribute ढंग numeric
+@attribute ढेर numeric
+@attribute तक numeric
+@attribute तकनीकी numeric
+@attribute तब numeric
+@attribute तभी numeric
+@attribute तमाम numeric
+@attribute तय numeric
+@attribute तरफ numeric
+@attribute तरह numeric
+@attribute तरीके numeric
+@attribute तलाश numeric
+@attribute ताकि numeric
+@attribute तारा numeric
+@attribute तारीफ numeric
+@attribute तिवारी numeric
+@attribute तीन numeric
+@attribute तीनों numeric
+@attribute तुषार numeric
+@attribute तेज numeric
+@attribute तैयार numeric
+@attribute तो numeric
+@attribute तौर numeric
+@attribute था numeric
+@attribute थिएटर numeric
+@attribute थी numeric
+@attribute थीं numeric
+@attribute थे numeric
+@attribute थोड़ा numeric
+@attribute थोड़ी numeric
+@attribute थ्रिलर numeric
+@attribute द numeric
+@attribute दत्त numeric
+@attribute दम numeric
+@attribute दमदार numeric
+@attribute दरअसल numeric
+@attribute दर्शक numeric
+@attribute दर्शकों numeric
+@attribute दशक numeric
+@attribute दस numeric
+@attribute दिए numeric
+@attribute दिखा numeric
+@attribute दिखाई numeric
+@attribute दिखाए numeric
+@attribute दिखाने numeric
+@attribute दिखाया numeric
+@attribute दिन numeric
+@attribute दिनों numeric
+@attribute दिमाग numeric
+@attribute दिया numeric
+@attribute दिल numeric
+@attribute दिलचस्प numeric
+@attribute दिल्ली numeric
+@attribute दी numeric
+@attribute दीपक numeric
+@attribute दुनिया numeric
+@attribute दूर numeric
+@attribute दूसरा numeric
+@attribute दूसरी numeric
+@attribute दूसरे numeric
+@attribute दृश्य numeric
+@attribute दृश्यों numeric
+@attribute दे numeric
+@attribute देओल numeric
+@attribute देकर numeric
+@attribute देख numeric
+@attribute देखकर numeric
+@attribute देखते numeric
+@attribute देखना numeric
+@attribute देखने numeric
+@attribute देखा numeric
+@attribute देखें numeric
+@attribute देता numeric
+@attribute देती numeric
+@attribute देते numeric
+@attribute देना numeric
+@attribute देने numeric
+@attribute देर numeric
+@attribute देव numeric
+@attribute देवगन numeric
+@attribute देश numeric
+@attribute देशमुख numeric
+@attribute दो numeric
+@attribute दोनों numeric
+@attribute दोस्त numeric
+@attribute दोस्तों numeric
+@attribute दौर numeric
+@attribute दौरान numeric
+@attribute द्वारा numeric
+@attribute धीमी numeric
+@attribute धीरे numeric
+@attribute ध्यान numeric
+@attribute न numeric
+@attribute नंबर numeric
+@attribute नई numeric
+@attribute नए numeric
+@attribute नजर numeric
+@attribute नज़र numeric
+@attribute नया numeric
+@attribute नयापन numeric
+@attribute नसीरुद्दीन numeric
+@attribute नहीं numeric
+@attribute ना numeric
+@attribute नाकाम numeric
+@attribute नाटक numeric
+@attribute नाम numeric
+@attribute नामक numeric
+@attribute निकल numeric
+@attribute निखिल numeric
+@attribute नितिन numeric
+@attribute निभा numeric
+@attribute निभाया numeric
+@attribute निराश numeric
+@attribute निर्देशक numeric
+@attribute निर्देशन numeric
+@attribute निर्देशित numeric
+@attribute निर्माता numeric
+@attribute नीरज numeric
+@attribute नूर numeric
+@attribute ने numeric
+@attribute नेता numeric
+@attribute नेहा numeric
+@attribute नौकरी numeric
+@attribute न्याय numeric
+@attribute पकड़ numeric
+@attribute पक्ष numeric
+@attribute पटकथा numeric
+@attribute पड़ numeric
+@attribute पड़ता numeric
+@attribute पड़ा numeric
+@attribute पड़े numeric
+@attribute पढ़ें numeric
+@attribute पता numeric
+@attribute पति numeric
+@attribute पत्नी numeric
+@attribute पर numeric
+@attribute परदे numeric
+@attribute परिवार numeric
+@attribute परे numeric
+@attribute परेशान numeric
+@attribute पर्दे numeric
+@attribute पसंद numeric
+@attribute पहचान numeric
+@attribute पहली numeric
+@attribute पहले numeric
+@attribute पहुंच numeric
+@attribute पांडे numeric
+@attribute पाई numeric
+@attribute पाए numeric
+@attribute पाकिस्तान numeric
+@attribute पाता numeric
+@attribute पाती numeric
+@attribute पाते numeric
+@attribute पाने numeric
+@attribute पापा numeric
+@attribute पास numeric
+@attribute पिछली numeric
+@attribute पिछले numeric
+@attribute पिता numeric
+@attribute पीछे numeric
+@attribute पुरानी numeric
+@attribute पुराने numeric
+@attribute पुलिस numeric
+@attribute पूरा numeric
+@attribute पूरी numeric
+@attribute पूरे numeric
+@attribute पेश numeric
+@attribute पैदा numeric
+@attribute पैसा numeric
+@attribute पैसे numeric
+@attribute प्यार numeric
+@attribute प्रति numeric
+@attribute प्रभाव numeric
+@attribute प्रभावित numeric
+@attribute प्रयास numeric
+@attribute प्रसंग numeric
+@attribute प्रस्तुतिकरण numeric
+@attribute प्रा numeric
+@attribute प्रियंका numeric
+@attribute प्रेम numeric
+@attribute प्रॉडक्शन numeric
+@attribute प्लॉट numeric
+@attribute फिट numeric
+@attribute फिर numeric
+@attribute फिल्म numeric
+@attribute फिल्मांकन numeric
+@attribute फिल्माए numeric
+@attribute फिल्माया numeric
+@attribute फिल्मी numeric
+@attribute फिल्में numeric
+@attribute फिल्मों numeric
+@attribute फिल्म्स numeric
+@attribute फीसदी numeric
+@attribute फुटेज numeric
+@attribute फैन numeric
+@attribute फैन्स numeric
+@attribute फैमिली numeric
+@attribute फैसला numeric
+@attribute फोकस numeric
+@attribute बंद numeric
+@attribute बखूबी numeric
+@attribute बचपन numeric
+@attribute बचाने numeric
+@attribute बच्चन numeric
+@attribute बच्चे numeric
+@attribute बच्चों numeric
+@attribute बजट numeric
+@attribute बजाय numeric
+@attribute बड़ा numeric
+@attribute बड़ी numeric
+@attribute बड़े numeric
+@attribute बढ़ती numeric
+@attribute बता numeric
+@attribute बताता numeric
+@attribute बताया numeric
+@attribute बतौर numeric
+@attribute बदल numeric
+@attribute बदला numeric
+@attribute बन numeric
+@attribute बनकर numeric
+@attribute बनती numeric
+@attribute बनने numeric
+@attribute बना numeric
+@attribute बनाई numeric
+@attribute बनाए numeric
+@attribute बनाकर numeric
+@attribute बनाता numeric
+@attribute बनाते numeric
+@attribute बनाना numeric
+@attribute बनाने numeric
+@attribute बनाया numeric
+@attribute बनी numeric
+@attribute बने numeric
+@attribute बरसों numeric
+@attribute बल्कि numeric
+@attribute बस numeric
+@attribute बहन numeric
+@attribute बहुत numeric
+@attribute बांध numeric
+@attribute बाकी numeric
+@attribute बाजपेयी numeric
+@attribute बात numeric
+@attribute बातें numeric
+@attribute बातों numeric
+@attribute बाद numeric
+@attribute बाप numeric
+@attribute बार numeric
+@attribute बारे numeric
+@attribute बावजूद numeric
+@attribute बाहर numeric
+@attribute बिना numeric
+@attribute बिपाशा numeric
+@attribute बिलकुल numeric
+@attribute बीच numeric
+@attribute बीवी numeric
+@attribute बुक numeric
+@attribute बुरा numeric
+@attribute बुरी numeric
+@attribute बेटा numeric
+@attribute बेटी numeric
+@attribute बेटे numeric
+@attribute बेबी numeric
+@attribute बेवकूफ numeric
+@attribute बेवजह numeric
+@attribute बेशक numeric
+@attribute बेहतर numeric
+@attribute बेहतरीन numeric
+@attribute बेहद numeric
+@attribute बैंक numeric
+@attribute बैकग्राउंड numeric
+@attribute बैठे numeric
+@attribute बैनर numeric
+@attribute बॉक्स numeric
+@attribute बॉन्ड numeric
+@attribute बॉबी numeric
+@attribute बॉलिवुड numeric
+@attribute बॉलीवुड numeric
+@attribute बोमन numeric
+@attribute बोर numeric
+@attribute बोरियत numeric
+@attribute ब्रदर्स numeric
+@attribute भट्ट numeric
+@attribute भर numeric
+@attribute भले numeric
+@attribute भाई numeric
+@attribute भाग numeric
+@attribute भारत numeric
+@attribute भारतीय numeric
+@attribute भारी numeric
+@attribute भाव numeric
+@attribute भी numeric
+@attribute भूमिका numeric
+@attribute भूल numeric
+@attribute मकसद numeric
+@attribute मगर numeric
+@attribute मजबूत numeric
+@attribute मजा numeric
+@attribute मजेदार numeric
+@attribute मतलब numeric
+@attribute मदद numeric
+@attribute मन numeric
+@attribute मनीष numeric
+@attribute मनोज numeric
+@attribute मनोरंजक numeric
+@attribute मनोरंजन numeric
+@attribute मर्डर numeric
+@attribute मलिक numeric
+@attribute मल्होत्रा numeric
+@attribute मसाला numeric
+@attribute मस्ती numeric
+@attribute महसूस numeric
+@attribute महिला numeric
+@attribute मां numeric
+@attribute मानो numeric
+@attribute मामला numeric
+@attribute मामले numeric
+@attribute मार numeric
+@attribute माही numeric
+@attribute माहौल numeric
+@attribute मिनट numeric
+@attribute मिल numeric
+@attribute मिलकर numeric
+@attribute मिलता numeric
+@attribute मिलती numeric
+@attribute मिलते numeric
+@attribute मिलने numeric
+@attribute मिला numeric
+@attribute मिलाकर numeric
+@attribute मिली numeric
+@attribute मिले numeric
+@attribute मिशन numeric
+@attribute मिश्रा numeric
+@attribute मीडिया numeric
+@attribute मीरा numeric
+@attribute मुंबई numeric
+@attribute मुकेश numeric
+@attribute मुताबिक numeric
+@attribute मुलाकात numeric
+@attribute मुश्किल numeric
+@attribute मूवी numeric
+@attribute में numeric
+@attribute मेनन numeric
+@attribute मेहनत numeric
+@attribute मैं numeric
+@attribute मौका numeric
+@attribute मौजूद numeric
+@attribute मौजूदगी numeric
+@attribute मौत numeric
+@attribute म्युजिक numeric
+@attribute म्यूजिक numeric
+@attribute यंग numeric
+@attribute यकीन numeric
+@attribute यकीनन numeric
+@attribute यदि numeric
+@attribute यह numeric
+@attribute यहां numeric
+@attribute यही numeric
+@attribute यहीं numeric
+@attribute या numeric
+@attribute याद numeric
+@attribute यानी numeric
+@attribute युवा numeric
+@attribute यू numeric
+@attribute यूए numeric
+@attribute ये numeric
+@attribute रंग numeric
+@attribute रख numeric
+@attribute रखता numeric
+@attribute रखती numeric
+@attribute रखते numeric
+@attribute रखने numeric
+@attribute रखा numeric
+@attribute रखे numeric
+@attribute रघु numeric
+@attribute रजनीकांत numeric
+@attribute रफ्तार numeric
+@attribute रह numeric
+@attribute रहता numeric
+@attribute रहती numeric
+@attribute रहते numeric
+@attribute रहने numeric
+@attribute रहा numeric
+@attribute रही numeric
+@attribute रहीं numeric
+@attribute रहे numeric
+@attribute राज numeric
+@attribute राजकुमार numeric
+@attribute राजीव numeric
+@attribute राजेश numeric
+@attribute रात numeric
+@attribute रानी numeric
+@attribute राम numeric
+@attribute रामगोपाल numeric
+@attribute रामू numeric
+@attribute राव numeric
+@attribute राहुल numeric
+@attribute रितेश numeric
+@attribute रिलीज numeric
+@attribute रिलीज़ numeric
+@attribute रिव्यू numeric
+@attribute रील numeric
+@attribute रुपये numeric
+@attribute रूचि numeric
+@attribute रूप numeric
+@attribute रेस numeric
+@attribute रॉय numeric
+@attribute रोमांच numeric
+@attribute रोमांस numeric
+@attribute रोल numeric
+@attribute रोहित numeric
+@attribute लंदन numeric
+@attribute लंबा numeric
+@attribute लंबी numeric
+@attribute लंबे numeric
+@attribute लग numeric
+@attribute लगता numeric
+@attribute लगती numeric
+@attribute लगते numeric
+@attribute लगने numeric
+@attribute लगभग numeric
+@attribute लगा numeric
+@attribute लगातार numeric
+@attribute लगाने numeric
+@attribute लगाया numeric
+@attribute लगी numeric
+@attribute लगे numeric
+@attribute लचर numeric
+@attribute लड़कियों numeric
+@attribute लड़की numeric
+@attribute लव numeric
+@attribute लाइफ numeric
+@attribute लाने numeric
+@attribute लायक numeric
+@attribute लि numeric
+@attribute लिए numeric
+@attribute लिखा numeric
+@attribute लिखी numeric
+@attribute लिखे numeric
+@attribute लिया numeric
+@attribute लियोन numeric
+@attribute ली numeric
+@attribute लीक numeric
+@attribute लीड numeric
+@attribute लुक numeric
+@attribute ले numeric
+@attribute लेकर numeric
+@attribute लेकिन numeric
+@attribute लेखक numeric
+@attribute लेखन numeric
+@attribute लेता numeric
+@attribute लेती numeric
+@attribute लेते numeric
+@attribute लेना numeric
+@attribute लेने numeric
+@attribute लॉजिक numeric
+@attribute लोकेशन numeric
+@attribute लोग numeric
+@attribute लोगों numeric
+@attribute वक्त numeric
+@attribute वजह numeric
+@attribute वन numeric
+@attribute वरुण numeric
+@attribute वर्मा numeric
+@attribute वर्ष numeric
+@attribute वह numeric
+@attribute वहां numeric
+@attribute वही numeric
+@attribute वहीं numeric
+@attribute वाइफ numeric
+@attribute वापस numeric
+@attribute वारसी numeric
+@attribute वाला numeric
+@attribute वाली numeric
+@attribute वाले numeric
+@attribute वालों numeric
+@attribute विक्रम numeric
+@attribute विजय numeric
+@attribute विद्या numeric
+@attribute विलेन numeric
+@attribute विशाल numeric
+@attribute विषय numeric
+@attribute वीर numeric
+@attribute वे numeric
+@attribute वैसे numeric
+@attribute वो numeric
+@attribute शंकर numeric
+@attribute शब्द numeric
+@attribute शर्मा numeric
+@attribute शहर numeric
+@attribute शादी numeric
+@attribute शानदार numeric
+@attribute शामिल numeric
+@attribute शायद numeric
+@attribute शाह numeric
+@attribute शाहरुख numeric
+@attribute शाहिद numeric
+@attribute शिकार numeric
+@attribute शिवदासानी numeric
+@attribute शुक्ला numeric
+@attribute शुरुआत numeric
+@attribute शुरू numeric
+@attribute शूट numeric
+@attribute शूटिंग numeric
+@attribute शेखर numeric
+@attribute शेट्टी numeric
+@attribute शेरगिल numeric
+@attribute शो numeric
+@attribute शौकीन numeric
+@attribute श्रॉफ numeric
+@attribute संगीत numeric
+@attribute संजय numeric
+@attribute संवाद numeric
+@attribute संवादों numeric
+@attribute सकता numeric
+@attribute सकती numeric
+@attribute सकते numeric
+@attribute सके numeric
+@attribute सचिन numeric
+@attribute सनी numeric
+@attribute सपना numeric
+@attribute सपने numeric
+@attribute सफर numeric
+@attribute सफल numeric
+@attribute सब numeric
+@attribute सबसे numeric
+@attribute सब्जेक्ट numeric
+@attribute सभी numeric
+@attribute समझ numeric
+@attribute समय numeric
+@attribute समस्या numeric
+@attribute समाज numeric
+@attribute सरकार numeric
+@attribute सर्टिफिकेट numeric
+@attribute सलमान numeric
+@attribute सवाल numeric
+@attribute सहित numeric
+@attribute सही numeric
+@attribute सा numeric
+@attribute साजिद numeric
+@attribute साथ numeric
+@attribute साथी numeric
+@attribute साफ numeric
+@attribute साबित numeric
+@attribute सामने numeric
+@attribute सारा numeric
+@attribute सारी numeric
+@attribute सारे numeric
+@attribute साल numeric
+@attribute सिंह numeric
+@attribute सिद्धार्थ numeric
+@attribute सिनेमा numeric
+@attribute सिनेमाघर numeric
+@attribute सिन्हा numeric
+@attribute सिर्फ numeric
+@attribute सी numeric
+@attribute सीक्वल numeric
+@attribute सीन numeric
+@attribute सीन्स numeric
+@attribute सीमित numeric
+@attribute सीरिज numeric
+@attribute सीरीज numeric
+@attribute सुनील numeric
+@attribute सुपर numeric
+@attribute सुपरस्टार numeric
+@attribute सुपरहिट numeric
+@attribute सुल्तान numeric
+@attribute सुशांत numeric
+@attribute सुस्त numeric
+@attribute सूरज numeric
+@attribute से numeric
+@attribute सेंसर numeric
+@attribute सेकंड numeric
+@attribute सेक्स numeric
+@attribute सेन numeric
+@attribute सैफ numeric
+@attribute सो numeric
+@attribute सोच numeric
+@attribute सोनाक्षी numeric
+@attribute सोनाली numeric
+@attribute सौ numeric
+@attribute स्कूल numeric
+@attribute स्क्रिप्ट numeric
+@attribute स्क्रीन numeric
+@attribute स्क्रीनप्ले numeric
+@attribute स्टाइल numeric
+@attribute स्टार numeric
+@attribute स्टारर numeric
+@attribute स्टार्स numeric
+@attribute स्टोरी numeric
+@attribute हंसी numeric
+@attribute हटकर numeric
+@attribute हत्या numeric
+@attribute हद numeric
+@attribute हम numeric
+@attribute हमेशा numeric
+@attribute हर numeric
+@attribute हां numeric
+@attribute हाथ numeric
+@attribute हाफ numeric
+@attribute हाल numeric
+@attribute हालांकि numeric
+@attribute हालात numeric
+@attribute हाशमी numeric
+@attribute हासिल numeric
+@attribute हास्य numeric
+@attribute हिंदी numeric
+@attribute हिट numeric
+@attribute हिस्सा numeric
+@attribute ही numeric
+@attribute हीरो numeric
+@attribute हीरोइन numeric
+@attribute हुआ numeric
+@attribute हुई numeric
+@attribute हुए numeric
+@attribute हुसैन numeric
+@attribute हेट numeric
+@attribute है numeric
+@attribute हैं numeric
+@attribute हॉट numeric
+@attribute हॉरर numeric
+@attribute हॉल numeric
+@attribute हो numeric
+@attribute हों numeric
+@attribute होकर numeric
+@attribute होगा numeric
+@attribute होगी numeric
+@attribute होता numeric
+@attribute होती numeric
+@attribute होते numeric
+@attribute होना numeric
+@attribute होने numeric
+@attribute 1 numeric
+@attribute 20 numeric
+@attribute 4 numeric
+@attribute 5 numeric
+@attribute अंग्रेजी numeric
+@attribute अंतिम numeric
+@attribute अंदाजा numeric
+@attribute अकबर numeric
+@attribute अख्तर numeric
+@attribute अनुभव numeric
+@attribute अनुराग numeric
+@attribute अनुरूप numeric
+@attribute अपराध numeric
+@attribute अपहरण numeric
+@attribute अब्राहम numeric
+@attribute आकर numeric
+@attribute आधार numeric
+@attribute आमिर numeric
+@attribute आर numeric
+@attribute आलिया numeric
+@attribute इनमें numeric
+@attribute इन्हें numeric
+@attribute इफेक्ट्स numeric
+@attribute इमोशन numeric
+@attribute इमोशनल numeric
+@attribute इम्तियाज numeric
+@attribute इर्दगिर्द numeric
+@attribute उतार numeric
+@attribute उत्सुकता numeric
+@attribute उल्लेखनीय numeric
+@attribute उसमें numeric
+@attribute एकदम numeric
+@attribute एजेंट numeric
+@attribute ऑफ numeric
+@attribute कठिन numeric
+@attribute कदम numeric
+@attribute कमियों numeric
+@attribute करीना numeric
+@attribute कल्पना numeric
+@attribute कश्यप numeric
+@attribute कह numeric
+@attribute कहते numeric
+@attribute कहानियों numeric
+@attribute काबिल numeric
+@attribute किस्म numeric
+@attribute कैटरीना numeric
+@attribute कैफ numeric
+@attribute कैरेक्टर numeric
+@attribute कोंकणा numeric
+@attribute कोर्ट numeric
+@attribute कौशल numeric
+@attribute क्रिकेट numeric
+@attribute खासतौर numeric
+@attribute खासियत numeric
+@attribute खिलाड़ी numeric
+@attribute खुश numeric
+@attribute खुशी numeric
+@attribute खून numeric
+@attribute खो numeric
+@attribute गंभीर numeric
+@attribute गर्लफ्रेंड numeric
+@attribute घंटा numeric
+@attribute घटना numeric
+@attribute घटनाओं numeric
+@attribute चढ़ाव numeric
+@attribute चुनाव numeric
+@attribute जबरदस्त numeric
+@attribute जानने numeric
+@attribute जिनके numeric
+@attribute जिया numeric
+@attribute जीवन numeric
+@attribute जेम्स numeric
+@attribute जौहर numeric
+@attribute झा numeric
+@attribute टॉम numeric
+@attribute डर numeric
+@attribute डांस numeric
+@attribute तकनीक numeric
+@attribute तथा numeric
+@attribute तनु numeric
+@attribute ताजगी numeric
+@attribute तापसी numeric
+@attribute तुलना numeric
+@attribute त्रिपाठी numeric
+@attribute दत्ता numeric
+@attribute दबाव numeric
+@attribute दर्ज numeric
+@attribute दर्द numeric
+@attribute दर्शाया numeric
+@attribute दास numeric
+@attribute दीपिका numeric
+@attribute देखी numeric
+@attribute दोस्ती numeric
+@attribute धर्म numeric
+@attribute धवन numeric
+@attribute धोनी numeric
+@attribute नफरत numeric
+@attribute नवाजुद्दीन numeric
+@attribute निभाई numeric
+@attribute पंकज numeric
+@attribute पड़ती numeric
+@attribute परेश numeric
+@attribute पल numeric
+@attribute पवन numeric
+@attribute पहला numeric
+@attribute पाठक numeric
+@attribute पात्र numeric
+@attribute पादुकोण numeric
+@attribute पार्टी numeric
+@attribute पिक्चर्स numeric
+@attribute पुरी numeric
+@attribute पुरुष numeric
+@attribute पृष्ठभूमि numeric
+@attribute प्रकाश numeric
+@attribute प्रयोग numeric
+@attribute प्रीतम numeric
+@attribute प्रेरित numeric
+@attribute प्रोडक्शन्स numeric
+@attribute प्लस numeric
+@attribute फरहान numeric
+@attribute फायदा numeric
+@attribute फ्रेम numeric
+@attribute बचा numeric
+@attribute बढ़ numeric
+@attribute बढ़िया numeric
+@attribute बदलाव numeric
+@attribute बांड numeric
+@attribute बाजीराव numeric
+@attribute बारीकी numeric
+@attribute बालन numeric
+@attribute बाहुबली numeric
+@attribute बिंदास numeric
+@attribute बिजली numeric
+@attribute बुधिया numeric
+@attribute बेकार numeric
+@attribute बॉडी numeric
+@attribute बोल्ड numeric
+@attribute भंसाली numeric
+@attribute भगवान numeric
+@attribute भरपूर numeric
+@attribute भारद्वाज numeric
+@attribute भाषा numeric
+@attribute मजबूर numeric
+@attribute मधुर numeric
+@attribute मनु numeric
+@attribute मस्तानी numeric
+@attribute महत्वपूर्ण numeric
+@attribute महिलाओं numeric
+@attribute माता numeric
+@attribute माध्यम numeric
+@attribute माना numeric
+@attribute माया numeric
+@attribute मुखर्जी numeric
+@attribute मुख्य numeric
+@attribute मूड numeric
+@attribute मेहता numeric
+@attribute मैच numeric
+@attribute मैन numeric
+@attribute मोशन numeric
+@attribute यादव numeric
+@attribute युद्ध numeric
+@attribute रखी numeric
+@attribute रणबीर numeric
+@attribute रणवीर numeric
+@attribute रवि numeric
+@attribute रहमान numeric
+@attribute राजनीति numeric
+@attribute राजा numeric
+@attribute राणा numeric
+@attribute राधिका numeric
+@attribute राय numeric
+@attribute रितिक numeric
+@attribute रियल numeric
+@attribute रिश्ता numeric
+@attribute रिश्ते numeric
+@attribute रूमी numeric
+@attribute रोचक numeric
+@attribute रोमांटिक numeric
+@attribute रोशन numeric
+@attribute लंबाई numeric
+@attribute लड़के numeric
+@attribute लड़ाई numeric
+@attribute लाजवाब numeric
+@attribute लीला numeric
+@attribute वकील numeric
+@attribute वर्षों numeric
+@attribute विक्की numeric
+@attribute विश्वास numeric
+@attribute व्यक्ति numeric
+@attribute शख्स numeric
+@attribute श्रद्धा numeric
+@attribute श्रुति numeric
+@attribute संदीप numeric
+@attribute सच numeric
+@attribute समझने numeric
+@attribute समीर numeric
+@attribute सशक्त numeric
+@attribute सामना numeric
+@attribute सिड numeric
+@attribute सिद्दीकी numeric
+@attribute सिनेमाटोग्राफी numeric
+@attribute सीक्वेंस numeric
+@attribute सीमा numeric
+@attribute सुनने numeric
+@attribute सुपरहीरो numeric
+@attribute सेट numeric
+@attribute सोचने numeric
+@attribute स्तर numeric
+@attribute स्त्री numeric
+@attribute स्थिति numeric
+@attribute स्पाइडरमैन numeric
+@attribute स्पेशल numeric
+@attribute हमारे numeric
+@attribute हमें numeric
+@attribute हिस्से numeric
+@attribute हॉकी numeric
+@attribute हॉलिवुड numeric
+
+@data
+
+
+Classifier Model
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: negative, positive
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1656 * (normalized) 2
+ +       0.1909 * (normalized) 3
+ +       0.5251 * (normalized) chandermohan
+ +       0.397  * (normalized) com
+ +      -0.4749 * (normalized) sharma
+ +       0.2839 * (normalized) timesgroup
+ +      -0.1458 * (normalized) अंत
+ +       0.3712 * (normalized) अंदर
+ +       0.341  * (normalized) अंदाज
+ +      -0.4708 * (normalized) अक्षय
+ +      -0.1085 * (normalized) अक्सर
+ +       0.064  * (normalized) अगर
+ +      -0.134  * (normalized) अचानक
+ +       0.3595 * (normalized) अच्छा
+ +       0.4533 * (normalized) अच्छी
+ +       0.5658 * (normalized) अच्छे
+ +      -0.3591 * (normalized) अजय
+ +       0.2263 * (normalized) अनिल
+ +       0.0653 * (normalized) अनुपम
+ +       0.5359 * (normalized) अनुष्का
+ +       0.1043 * (normalized) अन्य
+ +      -0.1495 * (normalized) अपना
+ +       0.5802 * (normalized) अपनी
+ +       0.4197 * (normalized) अपने
+ +       0.011  * (normalized) अब
+ +      -0.4712 * (normalized) अब्बास
+ +      -1.1125 * (normalized) अभाव
+ +       0.166  * (normalized) अभिनय
+ +       0.3836 * (normalized) अभिनेता
+ +       0.2886 * (normalized) अभिषेक
+ +      -0.1889 * (normalized) अभी
+ +       0.2945 * (normalized) अमित
+ +       0.4662 * (normalized) अमिताभ
+ +       0.0956 * (normalized) अरशद
+ +       0.3214 * (normalized) अर्जुन
+ +       0.4318 * (normalized) अर्से
+ +       0.4525 * (normalized) अलग
+ +      -0.2957 * (normalized) अलावा
+ +      -0.3728 * (normalized) अली
+ +      -0.3463 * (normalized) अवसर
+ +      -1.1513 * (normalized) असफल
+ +      -0.0473 * (normalized) असर
+ +      -0.2298 * (normalized) असरदार
+ +       0.2051 * (normalized) अहम
+ +      -0.3347 * (normalized) आ
+ +      -0.5073 * (normalized) आंखों
+ +      -0.026  * (normalized) आइटम
+ +      -0.1718 * (normalized) आइडिया
+ +      -0.3409 * (normalized) आई
+ +      -0.3108 * (normalized) आए
+ +      -0.1599 * (normalized) आखिर
+ +      -0.1117 * (normalized) आखिरी
+ +      -0.5338 * (normalized) आगे
+ +      -0.2648 * (normalized) आज
+ +      -0.4768 * (normalized) आता
+ +       0.0671 * (normalized) आती
+ +      -0.1613 * (normalized) आते
+ +       0.2254 * (normalized) आदमी
+ +      -0.2174 * (normalized) आदित्य
+ +      -0.6536 * (normalized) आधारित
+ +       0.1548 * (normalized) आधी
+ +       0.6342 * (normalized) आनंद
+ +       0.5521 * (normalized) आने
+ +      -0.7491 * (normalized) आप
+ +      -0.0777 * (normalized) आपके
+ +      -0.7575 * (normalized) आपको
+ +      -0.1618 * (normalized) आफताब
+ +      -0.0506 * (normalized) आफिस
+ +       0.6093 * (normalized) आम
+ +       0.606  * (normalized) आया
+ +      -0.3046 * (normalized) आर्यन
+ +       0.6312 * (normalized) आवाज
+ +      -0.5925 * (normalized) आशीष
+ +      -0.3031 * (normalized) आसपास
+ +       1.081  * (normalized) आसान
+ +       0.5664 * (normalized) आसानी
+ +      -1.0937 * (normalized) इंटरवल
+ +       0.1406 * (normalized) इंडस्ट्री
+ +      -1.1763 * (normalized) इंतजार
+ +      -0.1506 * (normalized) इंद्र
+ +      -0.0987 * (normalized) इंसान
+ +       0.0454 * (normalized) इतना
+ +       0.5648 * (normalized) इतनी
+ +       0.1043 * (normalized) इतने
+ +       0.3714 * (normalized) इन
+ +       0.0478 * (normalized) इनकी
+ +       0.8665 * (normalized) इनके
+ +       0.0752 * (normalized) इमरान
+ +       0.4652 * (normalized) इरफान
+ +       0.1869 * (normalized) इस
+ +       0.0852 * (normalized) इसका
+ +       0.1239 * (normalized) इसकी
+ +      -0.0317 * (normalized) इसके
+ +       0.4555 * (normalized) इसमें
+ +       0.2301 * (normalized) इसलिए
+ +       0.5028 * (normalized) इससे
+ +      -0.2775 * (normalized) इसी
+ +       0.3221 * (normalized) इसे
+ +       0.0093 * (normalized) इस्तेमाल
+ +      -0.2466 * (normalized) ईमानदारी
+ +      -0.3115 * (normalized) ईरानी
+ +       0.602  * (normalized) उन
+ +       0.3021 * (normalized) उनका
+ +       0.1438 * (normalized) उनकी
+ +      -0.3216 * (normalized) उनके
+ +       0.1097 * (normalized) उनमें
+ +       0.1657 * (normalized) उनसे
+ +      -0.0556 * (normalized) उन्हें
+ +       1.2374 * (normalized) उन्होंने
+ +      -0.5234 * (normalized) उपयोग
+ +      -0.6629 * (normalized) उबाऊ
+ +       0.8304 * (normalized) उम्दा
+ +       0.5427 * (normalized) उम्मीद
+ +      -0.6071 * (normalized) उम्र
+ +      -0.8339 * (normalized) उर्फ
+ +       0.5708 * (normalized) उस
+ +       0.2366 * (normalized) उसका
+ +      -0.573  * (normalized) उसकी
+ +      -0.4577 * (normalized) उसके
+ +       0.1756 * (normalized) उसने
+ +       0.2743 * (normalized) उससे
+ +       0.6741 * (normalized) उसी
+ +      -0.1188 * (normalized) उसे
+ +       0.9471 * (normalized) ऋषि
+ +       0.2661 * (normalized) ए
+ +       0.1404 * (normalized) एंटरटेनमेंट
+ +       0.4576 * (normalized) एंट्री
+ +      -0.1087 * (normalized) एंड
+ +       0.0184 * (normalized) एक
+ +      -0.2691 * (normalized) एकबार
+ +       0.2093 * (normalized) एक्टिंग
+ +       0.0244 * (normalized) एक्शन
+ +      -0.4521 * (normalized) एक्स
+ +       0.0055 * (normalized) ऐक्टर
+ +       0.28   * (normalized) ऐक्टिंग
+ +       0.5877 * (normalized) ऐक्शन
+ +      -0.3052 * (normalized) ऐसा
+ +      -0.4457 * (normalized) ऐसी
+ +      -0.2332 * (normalized) ऐसे
+ +       0.0508 * (normalized) ऑफिस
+ +       0.0272 * (normalized) ऑफिसर
+ +      -0.5558 * (normalized) ओम
+ +      -0.7149 * (normalized) ओर
+ +       0.1072 * (normalized) ओवर
+ +       0.2113 * (normalized) और
+ +      -0.1779 * (normalized) औसत
+ +      -0.0609 * (normalized) कंगना
+ +       0.3373 * (normalized) कंपनी
+ +       0.0714 * (normalized) कई
+ +       0.2865 * (normalized) कपूर
+ +       0.2702 * (normalized) कबीर
+ +      -0.77   * (normalized) कभी
+ +      -0.881  * (normalized) कम
+ +      -2.3729 * (normalized) कमजोर
+ +       0.6833 * (normalized) कमाल
+ +      -1.4073 * (normalized) कमी
+ +      -0.4163 * (normalized) कर
+ +      -0.4345 * (normalized) करके
+ +       0.6607 * (normalized) करण
+ +       0.3291 * (normalized) करता
+ +       0.7501 * (normalized) करती
+ +       0.1295 * (normalized) करते
+ +      -0.5773 * (normalized) करना
+ +      -0.5918 * (normalized) करनी
+ +      -0.4494 * (normalized) करने
+ +      -0.2599 * (normalized) कराने
+ +       0.353  * (normalized) करियर
+ +      -0.2802 * (normalized) करीब
+ +      -0.4769 * (normalized) करें
+ +      -0.7528 * (normalized) करेंगे
+ +       0.4664 * (normalized) करोड़
+ +       0.0906 * (normalized) करोड़ों
+ +      -0.5419 * (normalized) कलाकार
+ +       0.1044 * (normalized) कलाकारों
+ +       0.0186 * (normalized) कसौटी
+ +       0.0647 * (normalized) कहता
+ +      -0.0579 * (normalized) कहती
+ +      -0.3698 * (normalized) कहने
+ +      -0.8987 * (normalized) कहा
+ +      -0.107  * (normalized) कहानी
+ +       0.3396 * (normalized) कही
+ +       1.0593 * (normalized) कहीं
+ +       0.1039 * (normalized) का
+ +       0.1324 * (normalized) काफी
+ +       0.1423 * (normalized) काम
+ +       0.2591 * (normalized) कामत
+ +       1.0063 * (normalized) कामयाब
+ +      -0.3455 * (normalized) कार
+ +       0.0427 * (normalized) कारण
+ +      -0.5837 * (normalized) काला
+ +      -0.2206 * (normalized) कि
+ +      -0.1502 * (normalized) किए
+ +       0.2307 * (normalized) किया
+ +       0.0641 * (normalized) किरदार
+ +       0.6645 * (normalized) किरदारों
+ +      -0.254  * (normalized) किशन
+ +       0.3011 * (normalized) किस
+ +       0.2899 * (normalized) किसी
+ +      -0.0989 * (normalized) की
+ +      -0.3675 * (normalized) कुछ
+ +       0.026  * (normalized) कुणाल
+ +       0.0396 * (normalized) कुमार
+ +       0.1716 * (normalized) कुल
+ +      -0.0177 * (normalized) के
+ +       0.1358 * (normalized) केवल
+ +       0.1329 * (normalized) केस
+ +      -0.9297 * (normalized) कैमरा
+ +      -0.6682 * (normalized) कैमरे
+ +      -0.8848 * (normalized) कैसे
+ +      -0.4745 * (normalized) कॉमिडी
+ +       0.3484 * (normalized) कॉमेडी
+ +       0.5909 * (normalized) कॉलेज
+ +       0.161  * (normalized) को
+ +      -0.2902 * (normalized) कोई
+ +       0.1483 * (normalized) कोशिश
+ +      -0.1039 * (normalized) कौन
+ +      -0.8166 * (normalized) क्या
+ +      -0.3655 * (normalized) क्यों
+ +       0.4731 * (normalized) क्योंकि
+ +      -0.522  * (normalized) क्रेज
+ +       0.052  * (normalized) क्लाइमेक्स
+ +      -0.0409 * (normalized) क्लाइमैक्स
+ +      -0.3345 * (normalized) क्लास
+ +      -0.0052 * (normalized) क्लिक
+ +       0.5117 * (normalized) खतरनाक
+ +       0.1568 * (normalized) खत्म
+ +      -0.2913 * (normalized) खन्ना
+ +      -0.5248 * (normalized) खराब
+ +       0.1033 * (normalized) खर्च
+ +       0.0392 * (normalized) खान
+ +       0.1771 * (normalized) खास
+ +       0.0824 * (normalized) खासकर
+ +       0.7766 * (normalized) खिलाफ
+ +       0.2316 * (normalized) खींचा
+ +      -0.294  * (normalized) खुद
+ +       0.2433 * (normalized) खूब
+ +       0.5396 * (normalized) खूबसूरत
+ +       0.6189 * (normalized) खूबसूरती
+ +       0.2039 * (normalized) खेर
+ +       0.0987 * (normalized) खेल
+ +      -0.2149 * (normalized) गई
+ +      -0.5993 * (normalized) गए
+ +       0.3466 * (normalized) गजब
+ +       0.1379 * (normalized) गति
+ +      -0.1271 * (normalized) गया
+ +      -0.2053 * (normalized) गलत
+ +      -0.9193 * (normalized) गलती
+ +       0.1042 * (normalized) गांव
+ +      -0.0958 * (normalized) गाना
+ +      -0.6298 * (normalized) गाने
+ +      -0.4899 * (normalized) गानों
+ +       0.1225 * (normalized) गायब
+ +       0.1064 * (normalized) गीत
+ +       0.0551 * (normalized) गुड्डू
+ +      -0.0783 * (normalized) गुप्ता
+ +       0.2359 * (normalized) गेम
+ +       0.6561 * (normalized) गैंग
+ +       0.2706 * (normalized) गौतम
+ +       0.0151 * (normalized) गौरव
+ +      -0.6832 * (normalized) ग्रोवर
+ +      -0.1615 * (normalized) ग्लैमर
+ +      -0.1869 * (normalized) घंटे
+ +      -0.2354 * (normalized) घटनाक्रम
+ +      -0.9775 * (normalized) घटिया
+ +      -0.1059 * (normalized) घर
+ +       0.2775 * (normalized) घूमती
+ +       0.0909 * (normalized) चंद
+ +      -0.3793 * (normalized) चक्कर
+ +       0.1968 * (normalized) चक्रवर्ती
+ +      -0.4861 * (normalized) चरित्र
+ +      -0.1745 * (normalized) चल
+ +      -0.2415 * (normalized) चलता
+ +       0.1414 * (normalized) चलती
+ +      -1.0289 * (normalized) चलते
+ +      -1.0127 * (normalized) चला
+ +       1.1968 * (normalized) चार
+ +       0.2375 * (normalized) चारों
+ +       0.5733 * (normalized) चाहता
+ +       0.2331 * (normalized) चाहती
+ +       0.5149 * (normalized) चाहते
+ +      -0.5611 * (normalized) चाहिए
+ +      -0.5269 * (normalized) चाहे
+ +       0.1133 * (normalized) चुका
+ +      -0.2301 * (normalized) चुकी
+ +      -0.0019 * (normalized) चुके
+ +       0.139  * (normalized) चेहरे
+ +      -0.4006 * (normalized) चोपड़ा
+ +      -0.0801 * (normalized) चोर
+ +       0.1135 * (normalized) चोरी
+ +       0.3852 * (normalized) चौधरी
+ +      -0.3692 * (normalized) छूट
+ +       0.1523 * (normalized) छोटा
+ +       0.0894 * (normalized) छोटी
+ +       0.5558 * (normalized) छोटे
+ +      -0.4562 * (normalized) छोड़
+ +       0.0877 * (normalized) छोड़कर
+ +      -0.5051 * (normalized) छोड़ने
+ +       0.0069 * (normalized) जंग
+ +       0.0711 * (normalized) जंगल
+ +      -0.4823 * (normalized) जगह
+ +       0.1356 * (normalized) जन्म
+ +       1.3187 * (normalized) जब
+ +      -0.0865 * (normalized) जबकि
+ +       0.5796 * (normalized) जबर्दस्त
+ +       0.2952 * (normalized) जमकर
+ +       0.0874 * (normalized) जमीन
+ +      -0.1835 * (normalized) जमे
+ +       0.4273 * (normalized) जय
+ +      -0.4182 * (normalized) जरा
+ +       0.9519 * (normalized) जरिये
+ +       0.5769 * (normalized) जरूर
+ +      -0.3224 * (normalized) जरूरत
+ +       0.5782 * (normalized) जरूरी
+ +       0.9479 * (normalized) जवाब
+ +       0.0066 * (normalized) जहां
+ +      -0.3013 * (normalized) जा
+ +      -0.3565 * (normalized) जाए
+ +       0.6271 * (normalized) जाएं
+ +      -0.9066 * (normalized) जाएगा
+ +       0.1753 * (normalized) जाकर
+ +      -0.4383 * (normalized) जाता
+ +      -0.6347 * (normalized) जाती
+ +      -0.4482 * (normalized) जाते
+ +      -0.1278 * (normalized) जान
+ +       0.7627 * (normalized) जानते
+ +      -0.1134 * (normalized) जाना
+ +       0.0284 * (normalized) जाने
+ +       0.1994 * (normalized) जिंदगी
+ +      -0.4321 * (normalized) जिन्हें
+ +       0.319  * (normalized) जिन्होंने
+ +      -0.6631 * (normalized) जिम्मेदारी
+ +      -0.3182 * (normalized) जिस
+ +       0.2407 * (normalized) जिसका
+ +      -0.5709 * (normalized) जिसकी
+ +      -0.8098 * (normalized) जिसके
+ +      -0.4853 * (normalized) जिसमें
+ +       0.4779 * (normalized) जिससे
+ +       0.09   * (normalized) जिसे
+ +       0.471  * (normalized) जी
+ +      -0.6971 * (normalized) जीत
+ +       0.1518 * (normalized) जीवंत
+ +       0.1244 * (normalized) जुड़े
+ +      -0.1375 * (normalized) जेल
+ +      -0.7499 * (normalized) जैकी
+ +      -0.2902 * (normalized) जैसा
+ +      -0.9744 * (normalized) जैसी
+ +      -0.0734 * (normalized) जैसे
+ +       0.4078 * (normalized) जॉन
+ +       0.1937 * (normalized) जो
+ +       0.3533 * (normalized) जोड़ी
+ +       0.2787 * (normalized) जोशी
+ +      -0.7105 * (normalized) ज्यादा
+ +       0.1595 * (normalized) ज्यादातर
+ +      -0.3089 * (normalized) टाइगर
+ +      -0.2259 * (normalized) टाइटल
+ +      -0.3456 * (normalized) टाइम
+ +       0.4054 * (normalized) टिकट
+ +      -0.0417 * (normalized) टीम
+ +      -0.8767 * (normalized) टीवी
+ +       0.6253 * (normalized) टू
+ +      -0.0842 * (normalized) ट्रेक
+ +      -0.1429 * (normalized) ट्रैक
+ +       0.7892 * (normalized) ठाक
+ +       0.3153 * (normalized) ठीक
+ +      -0.6665 * (normalized) डबल
+ +      -0.2288 * (normalized) डायरेक्टर
+ +      -0.0678 * (normalized) डायरेक्शन
+ +      -0.166  * (normalized) डायलॉग
+ +      -0.3831 * (normalized) डाल
+ +      -0.0215 * (normalized) डिमांड
+ +       0.3978 * (normalized) डी
+ +      -0.4466 * (normalized) डॉक्टर
+ +       0.9429 * (normalized) डॉन
+ +       0.6869 * (normalized) ड्रामा
+ +      -0.3321 * (normalized) ढंग
+ +       0.0912 * (normalized) ढेर
+ +       0.0104 * (normalized) तक
+ +      -0.3122 * (normalized) तकनीकी
+ +      -1.1527 * (normalized) तब
+ +       0.7207 * (normalized) तभी
+ +       0.392  * (normalized) तमाम
+ +       0.0765 * (normalized) तय
+ +       0.1604 * (normalized) तरफ
+ +       0.0806 * (normalized) तरह
+ +      -0.7974 * (normalized) तरीके
+ +       0.1646 * (normalized) तलाश
+ +       0.6185 * (normalized) ताकि
+ +      -0.0324 * (normalized) तारा
+ +       1.0308 * (normalized) तारीफ
+ +      -0.1832 * (normalized) तिवारी
+ +      -0.0936 * (normalized) तीन
+ +       0.0521 * (normalized) तीनों
+ +      -0.6092 * (normalized) तुषार
+ +       0.8762 * (normalized) तेज
+ +       0.5274 * (normalized) तैयार
+ +      -0.3989 * (normalized) तो
+ +       0.404  * (normalized) तौर
+ +      -0.0394 * (normalized) था
+ +       0.6505 * (normalized) थिएटर
+ +      -0.0788 * (normalized) थी
+ +      -0.3774 * (normalized) थीं
+ +      -0.4723 * (normalized) थे
+ +       0.3615 * (normalized) थोड़ा
+ +       0.0013 * (normalized) थोड़ी
+ +       0.2044 * (normalized) थ्रिलर
+ +       0.6366 * (normalized) द
+ +      -0.0969 * (normalized) दत्त
+ +      -0.6977 * (normalized) दम
+ +       0.2299 * (normalized) दमदार
+ +       0.2353 * (normalized) दरअसल
+ +       0.1454 * (normalized) दर्शक
+ +       0.2403 * (normalized) दर्शकों
+ +      -0.3269 * (normalized) दशक
+ +       0.0549 * (normalized) दस
+ +       0.6463 * (normalized) दिए
+ +      -0.135  * (normalized) दिखा
+ +      -0.4121 * (normalized) दिखाई
+ +       0.243  * (normalized) दिखाए
+ +      -0.7755 * (normalized) दिखाने
+ +      -0.0365 * (normalized) दिखाया
+ +       0.4713 * (normalized) दिन
+ +       0.7491 * (normalized) दिनों
+ +      -0.935  * (normalized) दिमाग
+ +      -0.3048 * (normalized) दिया
+ +      -0.2498 * (normalized) दिल
+ +       0.6276 * (normalized) दिलचस्प
+ +       0.0182 * (normalized) दिल्ली
+ +       0.2188 * (normalized) दी
+ +       0.1821 * (normalized) दीपक
+ +      -0.1353 * (normalized) दुनिया
+ +      -0.092  * (normalized) दूर
+ +       0.387  * (normalized) दूसरा
+ +       0.1964 * (normalized) दूसरी
+ +       0.6904 * (normalized) दूसरे
+ +       0.0431 * (normalized) दृश्य
+ +       0.0634 * (normalized) दृश्यों
+ +       0.5495 * (normalized) दे
+ +      -0.3473 * (normalized) देओल
+ +       0.1856 * (normalized) देकर
+ +      -0.1798 * (normalized) देख
+ +       0.0022 * (normalized) देखकर
+ +       0.9591 * (normalized) देखते
+ +      -0.0591 * (normalized) देखना
+ +       0.3828 * (normalized) देखने
+ +      -0.5717 * (normalized) देखा
+ +      -0.7635 * (normalized) देखें
+ +       0.3053 * (normalized) देता
+ +      -0.2128 * (normalized) देती
+ +      -0.4903 * (normalized) देते
+ +       0.2792 * (normalized) देना
+ +       0.4763 * (normalized) देने
+ +      -0.9134 * (normalized) देर
+ +      -0.1419 * (normalized) देव
+ +       0.1169 * (normalized) देवगन
+ +      -0.7829 * (normalized) देश
+ +      -0.0526 * (normalized) देशमुख
+ +       0.1636 * (normalized) दो
+ +      -0.2639 * (normalized) दोनों
+ +       0.0891 * (normalized) दोस्त
+ +       0.1586 * (normalized) दोस्तों
+ +      -0.1935 * (normalized) दौर
+ +       1.0592 * (normalized) दौरान
+ +      -0.6453 * (normalized) द्वारा
+ +      -0.5297 * (normalized) धीमी
+ +       0.4892 * (normalized) धीरे
+ +       0.2173 * (normalized) ध्यान
+ +      -1.2287 * (normalized) न
+ +      -0.0475 * (normalized) नंबर
+ +       0.5391 * (normalized) नई
+ +       0.6843 * (normalized) नए
+ +      -0.2671 * (normalized) नजर
+ +       0.3253 * (normalized) नज़र
+ +       0.4207 * (normalized) नया
+ +       0.1097 * (normalized) नयापन
+ +      -0.4681 * (normalized) नसीरुद्दीन
+ +      -1.6175 * (normalized) नहीं
+ +      -0.2654 * (normalized) ना
+ +      -0.621  * (normalized) नाकाम
+ +       0.9566 * (normalized) नाटक
+ +      -0.3012 * (normalized) नाम
+ +      -0.201  * (normalized) नामक
+ +       0.5285 * (normalized) निकल
+ +      -0.0571 * (normalized) निखिल
+ +      -0.1575 * (normalized) नितिन
+ +      -0.2291 * (normalized) निभा
+ +       0.5088 * (normalized) निभाया
+ +      -1.8384 * (normalized) निराश
+ +      -0.1518 * (normalized) निर्देशक
+ +       0.2334 * (normalized) निर्देशन
+ +       0.1718 * (normalized) निर्देशित
+ +       0.4324 * (normalized) निर्माता
+ +      -0.136  * (normalized) नीरज
+ +       0.5124 * (normalized) ने
+ +      -0.2347 * (normalized) नेता
+ +       0.1469 * (normalized) नेहा
+ +       0.4695 * (normalized) नौकरी
+ +      -0.2772 * (normalized) न्याय
+ +       0.4372 * (normalized) पकड़
+ +       0.5644 * (normalized) पक्ष
+ +      -0.4882 * (normalized) पटकथा
+ +      -0.1565 * (normalized) पड़
+ +      -0.0824 * (normalized) पड़ता
+ +       0.3865 * (normalized) पड़ा
+ +       0.1653 * (normalized) पड़े
+ +       0.2398 * (normalized) पढ़ें
+ +      -0.0013 * (normalized) पता
+ +      -1.3648 * (normalized) पति
+ +       0.067  * (normalized) पत्नी
+ +      -0.1967 * (normalized) पर
+ +       0.3395 * (normalized) परदे
+ +      -0.1486 * (normalized) परिवार
+ +      -0.1112 * (normalized) परे
+ +      -0.6568 * (normalized) परेशान
+ +       0.293  * (normalized) पर्दे
+ +       0.5894 * (normalized) पसंद
+ +       0.2628 * (normalized) पहचान
+ +       1.048  * (normalized) पहली
+ +       0.2141 * (normalized) पहले
+ +       0.2226 * (normalized) पहुंच
+ +       0.4449 * (normalized) पांडे
+ +      -0.4048 * (normalized) पाई
+ +      -0.7457 * (normalized) पाए
+ +      -0.4428 * (normalized) पाकिस्तान
+ +      -0.4757 * (normalized) पाता
+ +      -0.8075 * (normalized) पाती
+ +      -0.709  * (normalized) पाते
+ +      -0.4736 * (normalized) पाने
+ +      -0.4321 * (normalized) पापा
+ +       0.3074 * (normalized) पास
+ +      -0.6595 * (normalized) पिछली
+ +      -0.3843 * (normalized) पिछले
+ +      -0.1032 * (normalized) पिता
+ +      -0.5045 * (normalized) पीछे
+ +       0.057  * (normalized) पुरानी
+ +      -0.2859 * (normalized) पुराने
+ +      -0.2439 * (normalized) पुलिस
+ +       0.8758 * (normalized) पूरा
+ +      -0.4465 * (normalized) पूरी
+ +       0.0509 * (normalized) पूरे
+ +       0.0097 * (normalized) पेश
+ +      -0.0904 * (normalized) पैदा
+ +       0.3654 * (normalized) पैसा
+ +       0.2592 * (normalized) पैसे
+ +      -0.2188 * (normalized) प्यार
+ +      -0.5158 * (normalized) प्रति
+ +      -0.4691 * (normalized) प्रभाव
+ +       0.2328 * (normalized) प्रभावित
+ +      -0.2049 * (normalized) प्रयास
+ +       0.2732 * (normalized) प्रसंग
+ +       0.371  * (normalized) प्रस्तुतिकरण
+ +      -0.4347 * (normalized) प्रा
+ +      -0.4957 * (normalized) प्रियंका
+ +       0.6538 * (normalized) प्रेम
+ +      -0.1559 * (normalized) प्रॉडक्शन
+ +      -0.7524 * (normalized) प्लॉट
+ +       0.5501 * (normalized) फिट
+ +      -0.1995 * (normalized) फिर
+ +       0.1638 * (normalized) फिल्म
+ +       0.1884 * (normalized) फिल्मांकन
+ +      -0.5794 * (normalized) फिल्माए
+ +       0.2552 * (normalized) फिल्माया
+ +       0.6359 * (normalized) फिल्मी
+ +      -0.1472 * (normalized) फिल्में
+ +       0.2695 * (normalized) फिल्मों
+ +       0.5994 * (normalized) फिल्म्स
+ +      -0.4668 * (normalized) फीसदी
+ +      -0.3348 * (normalized) फुटेज
+ +       0.9588 * (normalized) फैन
+ +      -0.5274 * (normalized) फैन्स
+ +       0.0277 * (normalized) फैमिली
+ +       0.9519 * (normalized) फैसला
+ +      -0.5289 * (normalized) फोकस
+ +      -1.0974 * (normalized) बंद
+ +       0.1851 * (normalized) बखूबी
+ +       0.4462 * (normalized) बचपन
+ +       0.0451 * (normalized) बचाने
+ +       0.5702 * (normalized) बच्चन
+ +       0.6487 * (normalized) बच्चे
+ +       0.4073 * (normalized) बच्चों
+ +       0.0897 * (normalized) बजट
+ +       0.1884 * (normalized) बजाय
+ +      -0.3345 * (normalized) बड़ा
+ +      -0.1647 * (normalized) बड़ी
+ +       0.1514 * (normalized) बड़े
+ +       0.6315 * (normalized) बढ़ती
+ +      -0.204  * (normalized) बता
+ +      -0.1807 * (normalized) बताता
+ +      -0.4054 * (normalized) बताया
+ +      -0.0907 * (normalized) बतौर
+ +       0.2329 * (normalized) बदल
+ +      -0.095  * (normalized) बदला
+ +       0.1436 * (normalized) बन
+ +      -0.1783 * (normalized) बनकर
+ +      -0.2835 * (normalized) बनती
+ +       0.7509 * (normalized) बनने
+ +      -0.7596 * (normalized) बना
+ +       1.1639 * (normalized) बनाई
+ +       0.39   * (normalized) बनाए
+ +       0.4677 * (normalized) बनाकर
+ +       0.1207 * (normalized) बनाता
+ +       0.261  * (normalized) बनाते
+ +      -0.2811 * (normalized) बनाना
+ +      -0.1574 * (normalized) बनाने
+ +       0.134  * (normalized) बनाया
+ +       0.4522 * (normalized) बनी
+ +      -0.0873 * (normalized) बने
+ +      -0.4635 * (normalized) बरसों
+ +       1.0087 * (normalized) बल्कि
+ +      -0.2259 * (normalized) बस
+ +      -0.4747 * (normalized) बहन
+ +      -0.0858 * (normalized) बहुत
+ +      -0.0916 * (normalized) बांध
+ +      -0.3897 * (normalized) बाकी
+ +       0.0186 * (normalized) बाजपेयी
+ +      -0.3414 * (normalized) बात
+ +       1.0112 * (normalized) बातें
+ +      -0.3916 * (normalized) बातों
+ +       0.6738 * (normalized) बाद
+ +      -0.1093 * (normalized) बाप
+ +      -0.6813 * (normalized) बार
+ +       0.8044 * (normalized) बारे
+ +       0.4175 * (normalized) बावजूद
+ +      -0.1234 * (normalized) बाहर
+ +      -0.0966 * (normalized) बिना
+ +      -0.1916 * (normalized) बिपाशा
+ +       0.0925 * (normalized) बिलकुल
+ +      -0.4833 * (normalized) बीच
+ +      -1.1145 * (normalized) बीवी
+ +       0.5396 * (normalized) बुक
+ +      -1.328  * (normalized) बुरा
+ +      -1.2721 * (normalized) बुरी
+ +       0.9458 * (normalized) बेटा
+ +       0.1652 * (normalized) बेटी
+ +       0.4854 * (normalized) बेटे
+ +      -0.094  * (normalized) बेबी
+ +      -0.9016 * (normalized) बेवकूफ
+ +      -1.0551 * (normalized) बेवजह
+ +       0.0496 * (normalized) बेशक
+ +       0.4708 * (normalized) बेहतर
+ +       1.3964 * (normalized) बेहतरीन
+ +       0.5335 * (normalized) बेहद
+ +       0.2273 * (normalized) बैंक
+ +       0.0729 * (normalized) बैकग्राउंड
+ +      -0.2096 * (normalized) बैठे
+ +      -0.1234 * (normalized) बैनर
+ +      -0.0374 * (normalized) बॉक्स
+ +       0.0494 * (normalized) बॉन्ड
+ +      -0.3264 * (normalized) बॉबी
+ +      -0.3506 * (normalized) बॉलिवुड
+ +      -0.7446 * (normalized) बॉलीवुड
+ +       0.1075 * (normalized) बोमन
+ +      -1.1468 * (normalized) बोर
+ +      -0.2606 * (normalized) बोरियत
+ +      -0.2311 * (normalized) ब्रदर्स
+ +      -0.1678 * (normalized) भट्ट
+ +       0.598  * (normalized) भर
+ +       0.5009 * (normalized) भले
+ +      -0.1228 * (normalized) भाई
+ +       0.4063 * (normalized) भाग
+ +      -0.0043 * (normalized) भारत
+ +       0.6507 * (normalized) भारतीय
+ +      -0.4213 * (normalized) भारी
+ +       0.4433 * (normalized) भाव
+ +       0.0917 * (normalized) भी
+ +       0.6109 * (normalized) भूमिका
+ +      -0.6939 * (normalized) भूल
+ +       0.0384 * (normalized) मकसद
+ +      -0.0503 * (normalized) मगर
+ +      -0.0475 * (normalized) मजबूत
+ +      -0.3622 * (normalized) मजा
+ +       0.1688 * (normalized) मजेदार
+ +      -0.211  * (normalized) मतलब
+ +       0.1131 * (normalized) मदद
+ +      -0.0503 * (normalized) मन
+ +      -0.1177 * (normalized) मनीष
+ +      -1.1712 * (normalized) मनोज
+ +       0.372  * (normalized) मनोरंजक
+ +       0.8297 * (normalized) मनोरंजन
+ +       0.1441 * (normalized) मर्डर
+ +      -0.0622 * (normalized) मलिक
+ +      -0.0284 * (normalized) मल्होत्रा
+ +       0.1714 * (normalized) मसाला
+ +       0.5411 * (normalized) मस्ती
+ +      -0.4415 * (normalized) महसूस
+ +       0.0225 * (normalized) महिला
+ +      -0.7071 * (normalized) मां
+ +      -0.141  * (normalized) मानो
+ +      -0.2303 * (normalized) मामला
+ +       0.0466 * (normalized) मामले
+ +      -0.9888 * (normalized) मार
+ +       0.3829 * (normalized) माही
+ +       0.3343 * (normalized) माहौल
+ +       0.488  * (normalized) मिनट
+ +       1.0127 * (normalized) मिल
+ +      -0.0948 * (normalized) मिलकर
+ +       0.6442 * (normalized) मिलता
+ +      -0.035  * (normalized) मिलती
+ +      -0.3488 * (normalized) मिलते
+ +       0.4998 * (normalized) मिलने
+ +       0.5198 * (normalized) मिला
+ +      -0.5457 * (normalized) मिलाकर
+ +       0.2635 * (normalized) मिली
+ +       0.2669 * (normalized) मिले
+ +      -0.1545 * (normalized) मिशन
+ +       0.1731 * (normalized) मिश्रा
+ +      -0.5556 * (normalized) मीडिया
+ +      -0.9089 * (normalized) मीरा
+ +      -0.1809 * (normalized) मुंबई
+ +      -0.0126 * (normalized) मुकेश
+ +       0.2461 * (normalized) मुताबिक
+ +      -0.4768 * (normalized) मुलाकात
+ +      -0.2432 * (normalized) मुश्किल
+ +      -0.0992 * (normalized) मूवी
+ +      -0.0898 * (normalized) में
+ +       0.1093 * (normalized) मेनन
+ +       0.3584 * (normalized) मेहनत
+ +      -0.7485 * (normalized) मैं
+ +      -0.5118 * (normalized) मौका
+ +       0.7347 * (normalized) मौजूद
+ +       0.5811 * (normalized) मौजूदगी
+ +      -0.7868 * (normalized) मौत
+ +      -0.0874 * (normalized) म्युजिक
+ +       0.2155 * (normalized) म्यूजिक
+ +      -0.0472 * (normalized) यंग
+ +      -0.2282 * (normalized) यकीन
+ +      -0.1559 * (normalized) यकीनन
+ +      -0.1951 * (normalized) यदि
+ +       0.0956 * (normalized) यह
+ +       0.174  * (normalized) यहां
+ +       0.3323 * (normalized) यही
+ +      -0.4262 * (normalized) यहीं
+ +      -0.0678 * (normalized) या
+ +       1.1156 * (normalized) याद
+ +      -0.6986 * (normalized) यानी
+ +      -0.2662 * (normalized) युवा
+ +      -0.4148 * (normalized) यू
+ +       0.2056 * (normalized) यूए
+ +      -0.4362 * (normalized) ये
+ +       0.3574 * (normalized) रंग
+ +      -0.4026 * (normalized) रख
+ +      -0.3308 * (normalized) रखता
+ +       0.786  * (normalized) रखती
+ +      -0.7932 * (normalized) रखते
+ +       0.0645 * (normalized) रखने
+ +      -0.0426 * (normalized) रखा
+ +      -0.3549 * (normalized) रखे
+ +       0.2593 * (normalized) रघु
+ +       0.1399 * (normalized) रजनीकांत
+ +      -0.4412 * (normalized) रफ्तार
+ +      -1.2866 * (normalized) रह
+ +       0.0958 * (normalized) रहता
+ +      -0.2546 * (normalized) रहती
+ +      -0.2251 * (normalized) रहते
+ +       1.0097 * (normalized) रहने
+ +      -0.0815 * (normalized) रहा
+ +       0.2371 * (normalized) रही
+ +      -0.4457 * (normalized) रहीं
+ +      -0.6692 * (normalized) रहे
+ +      -0.6939 * (normalized) राज
+ +       0.4863 * (normalized) राजकुमार
+ +      -0.278  * (normalized) राजीव
+ +      -0.142  * (normalized) राजेश
+ +       0.0043 * (normalized) रात
+ +       0.5525 * (normalized) रानी
+ +       0.59   * (normalized) राम
+ +      -0.1208 * (normalized) रामगोपाल
+ +       0.9729 * (normalized) रामू
+ +      -0.3264 * (normalized) राव
+ +      -0.5218 * (normalized) राहुल
+ +      -0.4379 * (normalized) रितेश
+ +      -0.5252 * (normalized) रिलीज
+ +      -0.694  * (normalized) रिलीज़
+ +       0.9696 * (normalized) रिव्यू
+ +       0.2299 * (normalized) रील
+ +       0.0998 * (normalized) रुपये
+ +       0.2119 * (normalized) रूचि
+ +       0.3528 * (normalized) रूप
+ +       0.0053 * (normalized) रेस
+ +      -1.5966 * (normalized) रॉय
+ +      -0.1448 * (normalized) रोमांच
+ +      -0.4743 * (normalized) रोमांस
+ +       0.6872 * (normalized) रोल
+ +       0.4731 * (normalized) रोहित
+ +       0.7604 * (normalized) लंदन
+ +      -0.4208 * (normalized) लंबा
+ +       0.1243 * (normalized) लंबी
+ +      -1.0504 * (normalized) लंबे
+ +      -0.4412 * (normalized) लग
+ +      -0.2766 * (normalized) लगता
+ +      -0.7268 * (normalized) लगती
+ +      -0.7461 * (normalized) लगते
+ +       0.2108 * (normalized) लगने
+ +      -0.8926 * (normalized) लगभग
+ +      -0.2482 * (normalized) लगा
+ +      -0.1228 * (normalized) लगातार
+ +       0.1638 * (normalized) लगाने
+ +      -0.2779 * (normalized) लगाया
+ +       0.575  * (normalized) लगी
+ +       0.1322 * (normalized) लगे
+ +      -0.8154 * (normalized) लचर
+ +      -0.9594 * (normalized) लड़कियों
+ +      -0.1865 * (normalized) लड़की
+ +      -0.082  * (normalized) लव
+ +       0.4909 * (normalized) लाइफ
+ +       0.0962 * (normalized) लाने
+ +       0.1645 * (normalized) लायक
+ +      -0.3834 * (normalized) लि
+ +      -0.1584 * (normalized) लिए
+ +       0.2474 * (normalized) लिखा
+ +      -0.0887 * (normalized) लिखी
+ +       0.5193 * (normalized) लिखे
+ +      -0.6079 * (normalized) लिया
+ +      -0.1314 * (normalized) लियोन
+ +      -0.2369 * (normalized) ली
+ +      -0.5858 * (normalized) लीक
+ +       1.3331 * (normalized) लीड
+ +       0.9995 * (normalized) लुक
+ +       0.9813 * (normalized) ले
+ +      -0.4513 * (normalized) लेकर
+ +      -0.0716 * (normalized) लेकिन
+ +      -0.0271 * (normalized) लेखक
+ +      -0.3647 * (normalized) लेखन
+ +       0.7556 * (normalized) लेता
+ +       0.4363 * (normalized) लेती
+ +       0.7329 * (normalized) लेते
+ +      -0.6412 * (normalized) लेना
+ +       0.9873 * (normalized) लेने
+ +      -0.4738 * (normalized) लॉजिक
+ +       0.534  * (normalized) लोकेशन
+ +       0.5438 * (normalized) लोग
+ +       0.7573 * (normalized) लोगों
+ +      -0.3758 * (normalized) वक्त
+ +      -0.1088 * (normalized) वजह
+ +      -0.0919 * (normalized) वन
+ +      -0.0258 * (normalized) वरुण
+ +      -0.0348 * (normalized) वर्मा
+ +       0.0604 * (normalized) वर्ष
+ +      -0.1778 * (normalized) वह
+ +      -0.0179 * (normalized) वहां
+ +       0.0425 * (normalized) वही
+ +       0.0946 * (normalized) वहीं
+ +      -0.5491 * (normalized) वाइफ
+ +      -0.4343 * (normalized) वापस
+ +       0.0956 * (normalized) वारसी
+ +      -0.6823 * (normalized) वाला
+ +       1.0171 * (normalized) वाली
+ +      -0.2786 * (normalized) वाले
+ +       0.5882 * (normalized) वालों
+ +       0.0925 * (normalized) विक्रम
+ +      -0.5118 * (normalized) विजय
+ +       0.0672 * (normalized) विद्या
+ +      -0.8063 * (normalized) विलेन
+ +       0.281  * (normalized) विशाल
+ +      -0.402  * (normalized) विषय
+ +      -0.0684 * (normalized) वीर
+ +       0.1707 * (normalized) वे
+ +      -0.4189 * (normalized) वैसे
+ +      -0.0043 * (normalized) वो
+ +       0.4868 * (normalized) शंकर
+ +       0.157  * (normalized) शब्द
+ +      -0.0592 * (normalized) शर्मा
+ +       0.4569 * (normalized) शहर
+ +       0.177  * (normalized) शादी
+ +       0.7295 * (normalized) शानदार
+ +       0.5702 * (normalized) शामिल
+ +      -0.3691 * (normalized) शायद
+ +       0.1632 * (normalized) शाह
+ +       0.043  * (normalized) शाहरुख
+ +       0.5443 * (normalized) शाहिद
+ +      -0.7807 * (normalized) शिकार
+ +      -0.1919 * (normalized) शिवदासानी
+ +       0.7603 * (normalized) शुक्ला
+ +       0.4565 * (normalized) शुरुआत
+ +      -0.4838 * (normalized) शुरू
+ +      -0.1379 * (normalized) शूट
+ +      -0.4151 * (normalized) शूटिंग
+ +       0.0883 * (normalized) शेखर
+ +       0.9236 * (normalized) शेट्टी
+ +       0.1436 * (normalized) शेरगिल
+ +       0.5026 * (normalized) शो
+ +      -0.0485 * (normalized) शौकीन
+ +       0.3909 * (normalized) श्रॉफ
+ +       0.1386 * (normalized) संगीत
+ +       0.8578 * (normalized) संजय
+ +      -0.3819 * (normalized) संवाद
+ +      -0.3118 * (normalized) संवादों
+ +      -0.1634 * (normalized) सकता
+ +      -0.4533 * (normalized) सकती
+ +      -0.0234 * (normalized) सकते
+ +      -0.3458 * (normalized) सके
+ +      -1.5938 * (normalized) सचिन
+ +      -0.9267 * (normalized) सनी
+ +      -0.1289 * (normalized) सपना
+ +      -0.4777 * (normalized) सपने
+ +       0.0821 * (normalized) सफर
+ +       0.9337 * (normalized) सफल
+ +       0.3569 * (normalized) सब
+ +       0.5137 * (normalized) सबसे
+ +      -0.7154 * (normalized) सब्जेक्ट
+ +      -0.0166 * (normalized) सभी
+ +       0.0056 * (normalized) समझ
+ +       0.1406 * (normalized) समय
+ +      -1.3347 * (normalized) समस्या
+ +       0.0856 * (normalized) समाज
+ +       0.3162 * (normalized) सरकार
+ +       0.5544 * (normalized) सर्टिफिकेट
+ +       0.4217 * (normalized) सलमान
+ +       0.0186 * (normalized) सवाल
+ +       0.4734 * (normalized) सहित
+ +       0.5175 * (normalized) सही
+ +      -0.6563 * (normalized) सा
+ +       0.2555 * (normalized) साजिद
+ +       0.139  * (normalized) साथ
+ +       1.4029 * (normalized) साथी
+ +       0.0176 * (normalized) साफ
+ +       0.3477 * (normalized) साबित
+ +      -0.3856 * (normalized) सामने
+ +       0.1839 * (normalized) सारा
+ +      -0.0841 * (normalized) सारी
+ +      -0.2899 * (normalized) सारे
+ +       0.6673 * (normalized) साल
+ +       0.4375 * (normalized) सिंह
+ +      -0.8443 * (normalized) सिद्धार्थ
+ +      -0.4771 * (normalized) सिनेमा
+ +       0.4133 * (normalized) सिनेमाघर
+ +       0.0225 * (normalized) सिन्हा
+ +      -0.542  * (normalized) सिर्फ
+ +       0.1825 * (normalized) सी
+ +      -0.3222 * (normalized) सीक्वल
+ +      -0.0447 * (normalized) सीन
+ +      -0.1572 * (normalized) सीन्स
+ +       0.0639 * (normalized) सीमित
+ +       0.5619 * (normalized) सीरिज
+ +       0.1078 * (normalized) सीरीज
+ +       0.7697 * (normalized) सुनील
+ +       0.0287 * (normalized) सुपर
+ +       0.2536 * (normalized) सुपरस्टार
+ +       0.1788 * (normalized) सुपरहिट
+ +      -0.2191 * (normalized) सुल्तान
+ +      -0.136  * (normalized) सुशांत
+ +      -0.2984 * (normalized) सुस्त
+ +      -1.5319 * (normalized) सूरज
+ +      -0.0763 * (normalized) से
+ +      -0.0008 * (normalized) सेंसर
+ +       0.1989 * (normalized) सेकंड
+ +       0.4767 * (normalized) सेक्स
+ +       1.3283 * (normalized) सेन
+ +       0.2208 * (normalized) सैफ
+ +       0.15   * (normalized) सो
+ +      -0.8198 * (normalized) सोच
+ +      -0.3155 * (normalized) सोनाक्षी
+ +       0.1477 * (normalized) सोनाली
+ +       0.555  * (normalized) सौ
+ +       1.0655 * (normalized) स्कूल
+ +       0.2148 * (normalized) स्क्रिप्ट
+ +      -0.1243 * (normalized) स्क्रीन
+ +      -0.444  * (normalized) स्क्रीनप्ले
+ +      -0.6736 * (normalized) स्टाइल
+ +      -0.1309 * (normalized) स्टार
+ +       0.1907 * (normalized) स्टारर
+ +      -0.1876 * (normalized) स्टार्स
+ +       0.9354 * (normalized) स्टोरी
+ +      -0.3489 * (normalized) हंसी
+ +      -0.8    * (normalized) हटकर
+ +      -0.2164 * (normalized) हत्या
+ +      -0.2838 * (normalized) हद
+ +      -0.5614 * (normalized) हम
+ +      -0.1833 * (normalized) हमेशा
+ +       0.6703 * (normalized) हर
+ +       0.0612 * (normalized) हां
+ +       0.0339 * (normalized) हाथ
+ +      -0.5343 * (normalized) हाफ
+ +      -0.1954 * (normalized) हाल
+ +      -0.2493 * (normalized) हालांकि
+ +       0.4233 * (normalized) हालात
+ +       0.2055 * (normalized) हाशमी
+ +       0.3815 * (normalized) हासिल
+ +      -0.3783 * (normalized) हास्य
+ +      -0.1035 * (normalized) हिंदी
+ +      -0.2494 * (normalized) हिट
+ +      -0.3745 * (normalized) हिस्सा
+ +      -0.0525 * (normalized) ही
+ +       0.2508 * (normalized) हीरो
+ +      -0.4442 * (normalized) हीरोइन
+ +      -0.2956 * (normalized) हुआ
+ +      -0.2147 * (normalized) हुई
+ +      -0.4214 * (normalized) हुए
+ +       0.6995 * (normalized) हुसैन
+ +      -0.0373 * (normalized) हेट
+ +      -0.0022 * (normalized) है
+ +      -0.1207 * (normalized) हैं
+ +       0.7341 * (normalized) हॉट
+ +       0.5689 * (normalized) हॉरर
+ +      -0.3485 * (normalized) हॉल
+ +      -0.8823 * (normalized) हो
+ +       0.3758 * (normalized) हों
+ +       0.6055 * (normalized) होकर
+ +       0.1955 * (normalized) होगा
+ +      -0.439  * (normalized) होगी
+ +      -0.2501 * (normalized) होता
+ +      -0.709  * (normalized) होती
+ +       0.5562 * (normalized) होते
+ +      -0.2438 * (normalized) होना
+ +       0.1918 * (normalized) होने
+ +       0.2778 * (normalized) 1
+ +       0.306  * (normalized) 20
+ +       0.2983 * (normalized) 4
+ +       0.335  * (normalized) 5
+ +      -0.061  * (normalized) अंग्रेजी
+ +       0.4846 * (normalized) अंतिम
+ +       0.5508 * (normalized) अंदाजा
+ +       0.174  * (normalized) अकबर
+ +      -0.0573 * (normalized) अख्तर
+ +       0.2921 * (normalized) अनुभव
+ +       0.7426 * (normalized) अनुराग
+ +      -0.161  * (normalized) अनुरूप
+ +       0.618  * (normalized) अपराध
+ +       0.4246 * (normalized) अपहरण
+ +       0.4327 * (normalized) अब्राहम
+ +       0.1331 * (normalized) आकर
+ +       0.7571 * (normalized) आधार
+ +       0.5823 * (normalized) आमिर
+ +       0.7826 * (normalized) आर
+ +      -0.2748 * (normalized) आलिया
+ +       0.055  * (normalized) इनमें
+ +      -0.0902 * (normalized) इन्हें
+ +       0.3219 * (normalized) इफेक्ट्स
+ +       0.2643 * (normalized) इमोशन
+ +      -1.0168 * (normalized) इमोशनल
+ +       0.4142 * (normalized) इम्तियाज
+ +       0.1663 * (normalized) इर्दगिर्द
+ +       0.184  * (normalized) उतार
+ +       0.5979 * (normalized) उत्सुकता
+ +       0.8408 * (normalized) उल्लेखनीय
+ +       0.5792 * (normalized) उसमें
+ +       0.4132 * (normalized) एकदम
+ +       0.4805 * (normalized) एजेंट
+ +      -0.1711 * (normalized) ऑफ
+ +      -0.0265 * (normalized) कठिन
+ +       0.2802 * (normalized) कदम
+ +       0.092  * (normalized) कमियों
+ +       0.2577 * (normalized) करीना
+ +       1.3546 * (normalized) कल्पना
+ +       0.0645 * (normalized) कश्यप
+ +      -0.0959 * (normalized) कह
+ +      -0.2155 * (normalized) कहते
+ +       0.903  * (normalized) कहानियों
+ +       0.2872 * (normalized) काबिल
+ +       0.1901 * (normalized) किस्म
+ +       0.0489 * (normalized) कैटरीना
+ +       0.6005 * (normalized) कैफ
+ +       0.1862 * (normalized) कैरेक्टर
+ +       0.4122 * (normalized) कोंकणा
+ +      -0.2763 * (normalized) कोर्ट
+ +       1.0486 * (normalized) कौशल
+ +       0.2254 * (normalized) क्रिकेट
+ +       0.6611 * (normalized) खासतौर
+ +       1.2301 * (normalized) खासियत
+ +      -0.2029 * (normalized) खिलाड़ी
+ +       0.1996 * (normalized) खुश
+ +       0.7298 * (normalized) खुशी
+ +       0.3762 * (normalized) खून
+ +      -0.2042 * (normalized) खो
+ +       0.3578 * (normalized) गंभीर
+ +      -0.0291 * (normalized) गर्लफ्रेंड
+ +       0.1151 * (normalized) घंटा
+ +       0.6277 * (normalized) घटना
+ +       0.0161 * (normalized) घटनाओं
+ +       0.3226 * (normalized) चढ़ाव
+ +       0.2787 * (normalized) चुनाव
+ +       0.244  * (normalized) जबरदस्त
+ +       0.3377 * (normalized) जानने
+ +      -0.2789 * (normalized) जिनके
+ +       0.1418 * (normalized) जिया
+ +       0.4632 * (normalized) जीवन
+ +       0.2263 * (normalized) जेम्स
+ +       0.4752 * (normalized) जौहर
+ +      -0.401  * (normalized) झा
+ +       1.2639 * (normalized) टॉम
+ +      -1.0502 * (normalized) डर
+ +       0.4733 * (normalized) डांस
+ +      -0.647  * (normalized) तकनीक
+ +      -0.3318 * (normalized) तथा
+ +       0.1282 * (normalized) तनु
+ +       1.0764 * (normalized) ताजगी
+ +       0.0332 * (normalized) तापसी
+ +       0.2116 * (normalized) तुलना
+ +       0.4347 * (normalized) त्रिपाठी
+ +       1.0548 * (normalized) दत्ता
+ +      -0.2436 * (normalized) दबाव
+ +       0.142  * (normalized) दर्ज
+ +      -0.1146 * (normalized) दर्द
+ +       0.2187 * (normalized) दर्शाया
+ +       0.2245 * (normalized) दास
+ +       0.3334 * (normalized) दीपिका
+ +       0.207  * (normalized) देखी
+ +      -0.2675 * (normalized) दोस्ती
+ +       0.0983 * (normalized) धर्म
+ +       0.5644 * (normalized) धवन
+ +      -0.0813 * (normalized) धोनी
+ +       0.0119 * (normalized) नफरत
+ +       0.7005 * (normalized) नवाजुद्दीन
+ +      -0.3232 * (normalized) निभाई
+ +       0.4707 * (normalized) पंकज
+ +      -0.0002 * (normalized) पड़ती
+ +       0.68   * (normalized) परेश
+ +       0.4477 * (normalized) पल
+ +      -0.0142 * (normalized) पवन
+ +       0.2841 * (normalized) पहला
+ +      -0.1729 * (normalized) पाठक
+ +       0.6485 * (normalized) पात्र
+ +       0.3837 * (normalized) पादुकोण
+ +      -0.0891 * (normalized) पार्टी
+ +       0.2815 * (normalized) पिक्चर्स
+ +       0.0096 * (normalized) पुरी
+ +      -0.2421 * (normalized) पुरुष
+ +      -0.3398 * (normalized) पृष्ठभूमि
+ +       0.3935 * (normalized) प्रकाश
+ +       0.2217 * (normalized) प्रयोग
+ +       0.2314 * (normalized) प्रीतम
+ +      -0.7563 * (normalized) प्रेरित
+ +       0.5482 * (normalized) प्रोडक्शन्स
+ +       0.2832 * (normalized) प्लस
+ +      -0.3964 * (normalized) फरहान
+ +      -0.0845 * (normalized) फायदा
+ +      -0.2891 * (normalized) फ्रेम
+ +       0.288  * (normalized) बचा
+ +       0.9149 * (normalized) बढ़
+ +       0.0538 * (normalized) बढ़िया
+ +       0.4981 * (normalized) बदलाव
+ +       0.0527 * (normalized) बांड
+ +      -0.0471 * (normalized) बारीकी
+ +      -0.0325 * (normalized) बालन
+ +      -0.0089 * (normalized) बाहुबली
+ +       1.0671 * (normalized) बिंदास
+ +      -0.4354 * (normalized) बिजली
+ +       0.1884 * (normalized) बुधिया
+ +       0.1722 * (normalized) बेकार
+ +       0.8369 * (normalized) बॉडी
+ +       0.855  * (normalized) बोल्ड
+ +      -0.1568 * (normalized) भंसाली
+ +      -0.4253 * (normalized) भगवान
+ +       0.5959 * (normalized) भरपूर
+ +       0.2428 * (normalized) भारद्वाज
+ +       0.8145 * (normalized) भाषा
+ +      -0.0742 * (normalized) मजबूर
+ +       0.6343 * (normalized) मधुर
+ +      -0.0002 * (normalized) मनु
+ +       0.6261 * (normalized) महत्वपूर्ण
+ +       0.1886 * (normalized) महिलाओं
+ +       0.4967 * (normalized) माता
+ +       0.5685 * (normalized) माध्यम
+ +       0.7291 * (normalized) माना
+ +       0.3024 * (normalized) माया
+ +      -0.1221 * (normalized) मुखर्जी
+ +       0.2762 * (normalized) मुख्य
+ +       0.4448 * (normalized) मूड
+ +       0.7343 * (normalized) मेहता
+ +       0.0843 * (normalized) मैच
+ +      -0.4513 * (normalized) मैन
+ +       0.581  * (normalized) मोशन
+ +       0.5356 * (normalized) यादव
+ +       0.3319 * (normalized) युद्ध
+ +       0.3087 * (normalized) रखी
+ +      -0.3307 * (normalized) रणबीर
+ +      -0.0347 * (normalized) रणवीर
+ +       0.613  * (normalized) रवि
+ +       0.3892 * (normalized) रहमान
+ +       0.4911 * (normalized) राजनीति
+ +       0.6272 * (normalized) राजा
+ +       0.0702 * (normalized) राणा
+ +       0.4227 * (normalized) राधिका
+ +       0.3084 * (normalized) राय
+ +       0.2615 * (normalized) रितिक
+ +       0.2721 * (normalized) रियल
+ +       1.4889 * (normalized) रिश्ता
+ +       0.296  * (normalized) रिश्ते
+ +      -1      * (normalized) रूमी
+ +       0.6243 * (normalized) रोचक
+ +      -0.2154 * (normalized) रोमांटिक
+ +       0.0947 * (normalized) रोशन
+ +      -0.1191 * (normalized) लंबाई
+ +      -0.0822 * (normalized) लड़के
+ +      -0.1653 * (normalized) लड़ाई
+ +      -0.121  * (normalized) लाजवाब
+ +      -0.0167 * (normalized) लीला
+ +       0.5107 * (normalized) वकील
+ +       0.0695 * (normalized) वर्षों
+ +       0.3371 * (normalized) विक्की
+ +       0.0048 * (normalized) विश्वास
+ +       0.711  * (normalized) व्यक्ति
+ +       0.3573 * (normalized) शख्स
+ +       0.2545 * (normalized) श्रद्धा
+ +      -0.0328 * (normalized) श्रुति
+ +       0.9365 * (normalized) संदीप
+ +       0.2888 * (normalized) सच
+ +      -0.28   * (normalized) समझने
+ +      -0.3788 * (normalized) समीर
+ +       0.9794 * (normalized) सशक्त
+ +      -0.0211 * (normalized) सामना
+ +      -0.1194 * (normalized) सिड
+ +       0.8399 * (normalized) सिद्दीकी
+ +       0.3408 * (normalized) सिनेमाटोग्राफी
+ +      -0.3852 * (normalized) सीक्वेंस
+ +       1.9164 * (normalized) सीमा
+ +       0.5849 * (normalized) सुनने
+ +       0.3426 * (normalized) सुपरहीरो
+ +       0.6952 * (normalized) सेट
+ +      -0.1078 * (normalized) सोचने
+ +      -0.1631 * (normalized) स्तर
+ +      -0.6943 * (normalized) स्त्री
+ +       0.6163 * (normalized) स्थिति
+ +      -0.0658 * (normalized) स्पाइडरमैन
+ +      -0.1491 * (normalized) स्पेशल
+ +       0.113  * (normalized) हमारे
+ +      -0.219  * (normalized) हमें
+ +       0.6033 * (normalized) हिस्से
+ +      -0.2682 * (normalized) हॉकी
+ +      -0.0208 * (normalized) हॉलिवुड
+ +       0.5003
+
+Number of kernel evaluations: 8007567 (93.34% cached)
+
+
+
+Time taken to build model: 5.34 seconds
+
+Time taken to test model on training data: 0.39 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2067               92.8154 %
+Incorrectly Classified Instances       160                7.1846 %
+Kappa statistic                          0.8524
+Mean absolute error                      0.0718
+Root mean squared error                  0.268 
+Relative absolute error                 14.7015 %
+Root relative squared error             54.2251 %
+Total Number of Instances             2227     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.901    0.052    0.928      0.901    0.914      0.853    0.925     0.878     negative
+                 0.948    0.099    0.928      0.948    0.938      0.853    0.925     0.910     positive
+Weighted Avg.    0.928    0.079    0.928      0.928    0.928      0.853    0.925     0.896     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  852   94 |    a = negative
+   66 1215 |    b = positive
+
+Time taken to perform cross-validation: 33.63 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1558               69.9596 %
+Incorrectly Classified Instances       669               30.0404 %
+Kappa statistic                          0.3826
+Mean absolute error                      0.3004
+Root mean squared error                  0.5481
+Relative absolute error                 61.4703 %
+Root relative squared error            110.8798 %
+Total Number of Instances             2227     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.630    0.249    0.651      0.630    0.641      0.383    0.690     0.568     negative
+                 0.751    0.370    0.733      0.751    0.742      0.383    0.690     0.694     positive
+Weighted Avg.    0.700    0.319    0.698      0.700    0.699      0.383    0.690     0.640     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 596 350 |   a = negative
+ 319 962 |   b = positive
+
